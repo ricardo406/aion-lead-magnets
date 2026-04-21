@@ -1,0 +1,71 @@
+{
+  "title": "El Stack de IA Para Crear Anuncios de Meta Ads Que Venden",
+  "subtitle": "El Método Exacto Para Multiplicar Tus Resultados",
+  "intro": "Si tus anuncios de Meta Ads no están convirtiendo, el problema no es tu presupuesto ni el algoritmo: es que no estás hablando del dolor real de tu cliente. Cuando un anuncio toca el dolor correcto, la venta ocurre casi sola. En esta guía te entrego el stack exacto de herramientas de IA — Perplexity + Claude AI + Meta Ads Skill — que usamos para crear anuncios devastadores que generan clientes en automático. Sigue cada paso y tendrás tus primeros anuncios con IA listos hoy mismo.",
+  "coverImagePrompt": "Dramatic split-screen showing a Meta Ads dashboard with soaring performance metrics on the left and a glowing AI neural network interface on the right, cinematic blue and gold lighting, data streams connecting both screens, professional marketing command center environment, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Generar Clientes Con Meta Ads + IA?",
+  "ctaText": "En AION Growth Lab te enseñamos a implementar este stack completo paso a paso, con soporte directo, entrenamientos en vivo y acceso a Ricardo La Rocca. No tienes que descifrar esto solo — únete a la comunidad donde cientos de emprendedores hispanohablantes ya están generando clientes con Meta Ads + IA hoy mismo.",
+  "steps": [
+    {
+      "title": "Descubre los 5 Dolores Que Hacen Vender Con Perplexity",
+      "description": "El primer paso es el más crítico: si no conoces el dolor de tu cliente ideal, ningún anuncio funcionará. Abre Perplexity AI y escribe exactamente esto: '¿Cuáles son los cinco dolores principales de [describe tu cliente ideal]?' Perplexity rastreará foros, reseñas, comunidades y estudios recientes para darte una lista de dolores reales que tu cliente ya está sintiendo. No inventes los dolores — descúbrelos donde tu cliente los expresa naturalmente. Este paso solo puede triplicar la relevancia de tus anuncios.",
+      "tips": [
+        "Usa Perplexity Pro para obtener fuentes más recientes y específicas de tu nicho",
+        "Agrega contexto a tu prompt: '¿Cuáles son los 5 dolores principales de un dueño de negocio local que quiere conseguir más clientes pero no sabe usar redes sociales?'",
+        "Guarda los resultados — los usarás en todos los pasos siguientes"
+      ],
+      "imagePrompt": "Close-up of a modern laptop screen showing Perplexity AI interface with search results about customer pain points, lists and highlighted text visible, warm amber desk lamp lighting, professional home office setting with blurred background, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Analiza y Elige el Dolor Más Rentable Para tu Anuncio",
+      "description": "Con los cinco dolores en mano, el siguiente paso es elegir el más poderoso para convertirlo en el núcleo de tu anuncio. Evalúa cada dolor con tres criterios: urgencia (¿lo necesitan resolver hoy o puede esperar?), intensidad emocional (¿duele mucho o es una molestia menor?) y relación directa con tu solución (¿tu producto o servicio lo elimina por completo?). El dolor ganador es aquel que puntúa alto en los tres criterios al mismo tiempo. Este es el ángulo que usarás para construir todo el anuncio. Un anuncio construido sobre el dolor correcto puede reducir tu costo por cliente adquirido hasta en un 60%.",
+      "tips": [
+        "Pregúntate: '¿Si este cliente no resuelve este dolor en 30 días, qué pierde?' — esa respuesta es el gancho de tu anuncio",
+        "El dolor más rentable no siempre es el más obvio — a veces es el vergonzoso o el que no dicen en voz alta",
+        "Valida el dolor revisando comentarios negativos en productos similares en Amazon o Google Reviews"
+      ],
+      "imagePrompt": "Overhead view of a entrepreneur's workspace with a notebook showing a prioritized list with checkmarks, a smartphone displaying social media analytics, and a cup of coffee, strategic planning atmosphere, cool blue morning light through window, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Diseña el Ángulo del Anuncio Antes de Escribirlo",
+      "description": "Antes de pedirle a Claude AI que redacte el anuncio, define el ángulo de ataque. El ángulo es la perspectiva desde la cual presentas el dolor para que el cliente sienta que le estás hablando directamente a él. Los ángulos más efectivos en Meta Ads son: el ángulo del miedo a perder ('Esto te está costando clientes sin que lo sepas'), el ángulo de la transformación ('De X a Y en Z tiempo'), el ángulo de la prueba social ('Así lo lograron más de 500 negocios como el tuyo') y el ángulo de la curiosidad ('El error #1 que cometen los negocios en Meta Ads'). Elige un ángulo que coincida con el dolor elegido y escríbelo en una sola oración — esa será la instrucción principal para Claude AI.",
+      "tips": [
+        "El ángulo del miedo a perder (FOMO) suele funcionar mejor en el mercado hispano para servicios B2C",
+        "Escribe tu ángulo en una sola frase: 'Mostrar que [cliente] está perdiendo [X] por no usar [solución]'",
+        "Prueba siempre dos ángulos diferentes — crea dos versiones del anuncio y deja que Meta decida cuál gana"
+      ],
+      "imagePrompt": "Creative director standing in front of a large modern whiteboard covered in marketing strategy diagrams, arrows connecting pain points to solutions, golden hour sunlight streaming through floor-to-ceiling windows of a modern agency office, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Crea Anuncios Devastadores Con Claude AI",
+      "description": "Ahora abre Claude AI y dale un prompt estructurado con toda la información que recopilaste. Tu prompt debe incluir: quién es tu cliente ideal, el dolor principal identificado, el ángulo elegido, el objetivo del anuncio (tráfico, leads, ventas) y el formato deseado (copy corto para imagen, copy largo para video, script para reels). Claude AI generará múltiples variaciones del anuncio optimizadas para conversión. Pide siempre tres versiones: una con enfoque emocional, una con enfoque racional y una con enfoque narrativo. Esto te da opciones para testear sin esfuerzo adicional.",
+      "tips": [
+        "Usa este prompt base: 'Eres un experto en copywriting de Meta Ads. Mi cliente ideal es [X], su dolor principal es [Y], el ángulo es [Z]. Crea 3 versiones de anuncio para [objetivo]'",
+        "Pide a Claude que incluya el hook en los primeros 3 segundos para anuncios de video — el 70% de las personas hace scroll si no se enganchan de inmediato",
+        "Solicita también el copy para el botón de CTA y el texto de la descripción del anuncio"
+      ],
+      "imagePrompt": "Over-the-shoulder view of a professional marketer working on multiple monitor setup showing Claude AI chat interface with detailed marketing copy responses on screen, clean modern desk setup with ambient blue LED lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Activa el Skill de Meta Ads en Claude Code y Automatiza Todo",
+      "description": "El paso final y más poderoso: activa el Skill de Meta Ads dentro de Claude Code y deja que la IA publique, configure y optimice tus campañas de forma automatizada. Claude Code con el skill de Meta Ads puede crear el conjunto de anuncios completo, configurar la segmentación de audiencia basada en el perfil de tu cliente ideal, establecer el presupuesto inicial recomendado y programar los anuncios en los horarios de mayor conversión. Lo que antes tomaba horas de configuración manual ahora se hace en minutos con instrucciones en lenguaje natural.",
+      "tips": [
+        "Asegúrate de tener conectada tu cuenta de Meta Business Suite antes de activar el skill",
+        "Describe tu audiencia en lenguaje natural: 'Dueños de restaurantes en Miami entre 35-55 años que han visitado páginas de proveedores de software de punto de venta'",
+        "Empieza con un presupuesto diario de $10-$20 para validar el anuncio antes de escalarlo"
+      ],
+      "imagePrompt": "Futuristic digital command center with holographic Meta Ads campaign dashboard floating in mid-air, automated workflow visualization with connected nodes and real-time metrics, deep blue and cyan lighting, professional operator monitoring multiple campaign performance screens, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Mide los Resultados y Escala lo Que Funciona",
+      "description": "Una vez tus anuncios estén publicados, el trabajo de la IA no termina — continúa optimizando. Después de 48-72 horas de datos, regresa a Claude AI y proporciona las métricas de rendimiento de cada anuncio: CPM, CTR, CPC, costo por resultado. Pide a Claude AI que analice cuál ángulo está funcionando mejor y te sugiera ajustes específicos para escalar el ganador. Los anuncios con CTR superior al 2% y costo por resultado dentro de tu meta son candidatos para duplicar presupuesto. Apaga los anuncios que no superen el umbral mínimo de rendimiento después de 72 horas.",
+      "tips": [
+        "Usa Claude AI para interpretar tus métricas: 'Tengo estos resultados [pega datos], ¿qué debo optimizar primero?'",
+        "Escala gradualmente: duplica el presupuesto cada 3-4 días para no romper el algoritmo de aprendizaje de Meta",
+        "Cuando un anuncio escala bien, crea 2-3 variaciones del mismo ángulo ganador antes de explorar nuevos ángulos"
+      ],
+      "imagePrompt": "Entrepreneur celebrating while looking at laptop screen showing dramatically rising Meta Ads performance graphs with green upward trending metrics, modern minimalist home office, warm golden evening light, champagne glass nearby suggesting success, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
