@@ -1,0 +1,81 @@
+{
+  "title": "El Sistema de 3 Herramientas Para Generar Clientes Con Meta Ads + IA",
+  "subtitle": "Perplexity, Claude y Meta Ads en Acción",
+  "intro": "Si tienes el mejor producto o servicio del mercado pero no ves los resultados que mereces, el problema no es tu precio — es tu exposición. La mayoría de los emprendedores cometen el error de bajar precios cuando lo que necesitan es poner su oferta frente a las personas correctas. Este sistema combina Perplexity, Claude AI y las campañas inteligentes de Meta para darte una ventaja real: investigación profunda del mercado, creatividad de alto impacto y una distribución que trabaja para ti mientras duermes. Aplica cada paso en orden y tendrás tu primera campaña activa antes de que termine el día.",
+  "coverImagePrompt": "Dramatic split-screen composition showing three powerful digital tools working in harmony: a glowing Perplexity AI search interface on the left, Claude AI chat interface in the center, and Meta Ads Manager dashboard on the right, all connected by flowing neon data streams, dark cinematic background, professional entrepreneur working at a sleek desk with multiple screens, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Implementar Este Sistema Con Apoyo Directo?",
+  "ctaText": "En AION Growth LAB te acompañamos a lanzar tus campañas de Meta Ads + IA desde cero, con entrenamientos en vivo cada semana, soporte directo de Ricardo La Rocca y una comunidad de emprendedores hispanohablantes que ya están generando clientes en automático. No tienes que hacerlo solo.",
+  "steps": [
+    {
+      "title": "Descubre el Dolor Real de Tu Cliente Con Perplexity",
+      "description": "Antes de invertir un solo dólar en anuncios, necesitas saber exactamente qué le quita el sueño a tu cliente ideal. Entra a Perplexity AI y búscalo directamente: escribe preguntas como '¿qué problemas tienen los [tu cliente] para [tu área]?' o '¿qué dicen los [tu nicho] que necesitan en Reddit y foros?'. Perplexity te devuelve respuestas con fuentes actualizadas, no suposiciones. Copia las frases textuales que tu cliente usa — esas son las palabras que van a aparecer en tu anuncio. Guarda al menos 10 frases de dolor real en un documento.",
+      "tips": [
+        "Busca en Perplexity con el modo 'Web' activado para obtener datos actuales de foros como Reddit, Quora y grupos de Facebook",
+        "Las mejores frases de dolor son preguntas que tu cliente ya está buscando: '¿cómo puedo...?' o '¿por qué no logro...?'",
+        "Evita asumir — usa solo frases que encontraste literalmente escritas por tu cliente"
+      ],
+      "imagePrompt": "Close-up of a modern laptop screen showing Perplexity AI interface with deep search results about customer pain points, glowing blue search bar with detailed results and source citations visible, entrepreneur taking notes on a notepad beside the laptop, warm amber desk lamp illuminating the scene, dark home office background, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Analiza a Tu Competencia y Define Tu Ventaja Única",
+      "description": "Ahora usa Perplexity para investigar quién más está vendiendo lo mismo que tú. Escribe: '¿qué están haciendo [tus competidores] para atraer clientes?' y '¿cuáles son las quejas más comunes sobre [producto/servicio de la competencia]?'. Lo que encuentres como queja sobre tu competencia es exactamente lo que tú debes prometer hacer diferente. Documenta 3-5 puntos donde tú superas a la competencia. Esta es tu Propuesta de Valor Única — la base de todo tu mensaje publicitario. Sin este paso, tus anuncios van a sonar iguales a los demás.",
+      "tips": [
+        "Busca en la Meta Ad Library (biblioteca de anuncios de Meta) para ver qué están publicando tus competidores directamente",
+        "Usa Perplexity para buscar reviews de Google, Trustpilot o Yelp de tu competencia — las quejas son oro puro",
+        "Tu ventaja no tiene que ser revolucionaria — puede ser velocidad, soporte, precio o especialización en un nicho"
+      ],
+      "imagePrompt": "Professional entrepreneur at a standing desk analyzing competitor research on dual monitors, one screen showing a competitive analysis matrix with brands and features compared, another showing social media ad examples, strategic planning with sticky notes on a glass board, cool blue and purple office lighting, urban skyline visible through large window at night, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Escribe Tu Anuncio de Alto Impacto Con Claude AI",
+      "description": "Con las frases de dolor de tu cliente y tu ventaja competitiva en mano, ve a Claude AI y dale el siguiente prompt: 'Eres un experto en Meta Ads para el mercado hispano. Escribe 3 versiones de un anuncio de video en formato hook-problema-solución-CTA para [tu producto/servicio]. El cliente sufre de [dolor específico]. Nuestra ventaja es [tu diferenciador]. El CTA debe llevar a [tu oferta]. Cada versión debe tener un ángulo diferente: emocional, racional y basado en resultados.' Claude te va a generar tres guiones completos listos para grabar. Elige el que mejor resuene contigo y ajústalo con tu voz.",
+      "tips": [
+        "Pídele a Claude que use las frases textuales de dolor que recopilaste con Perplexity — los anuncios que hablan como el cliente convierten más",
+        "El hook (primeros 3 segundos) debe interrumpir el scroll: una pregunta provocadora, un número sorprendente o una declaración contraintuitiva",
+        "Si quieres más opciones, pídele a Claude: 'Dame 5 hooks alternativos para este mismo anuncio'"
+      ],
+      "imagePrompt": "Close-up of hands typing on a premium mechanical keyboard with Claude AI interface visible on an ultrawide monitor showing a well-structured advertising copy with multiple variations, glowing purple and cyan ambient lighting, sleek minimalist desk setup with a smartphone nearby showing social media feed, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Configura Tu Campaña en Meta Ads Con la IA Andromeda",
+      "description": "Entra al Administrador de Anuncios de Meta y crea una nueva campaña. Para emprendedores que comienzan, elige el objetivo 'Leads' o 'Ventas' según tu meta. En la sección de audiencias, activa la opción 'Advantage+ Audience' — esta es la IA Andromeda de Meta, que aprende automáticamente quién responde mejor a tu anuncio sin que tú definas intereses manualmente. Sube el video que grabaste con el guión de Claude. Agrega mínimo 3 versiones del mismo anuncio (diferentes hooks) para que la IA pruebe cuál funciona mejor. Deja que Andromeda optimice — no toques la campaña durante los primeros 7 días.",
+      "tips": [
+        "Advantage+ Audience funciona mejor cuando tienes al menos 500 personas en tu pixel de Meta — si no tienes pixel, instálalo hoy mismo en tu sitio web",
+        "Sube videos verticales (9:16) para Stories y Reels, y horizontales (16:9) para Feed — Meta distribuye donde mejor funcione",
+        "No cambies la campaña durante los primeros 7 días — la IA necesita datos para aprender, si la tocas reinicia el aprendizaje"
+      ],
+      "imagePrompt": "Wide angle shot of Meta Ads Manager dashboard on a large monitor showing campaign setup with Advantage Plus audience settings, performance metrics graphs with upward trending lines, budget allocation interface visible, entrepreneur in modern office reviewing data with confidence, warm golden light from large windows, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Define Tu Presupuesto Inicial y Escala Sin Miedo",
+      "description": "El error más común es no saber cuánto invertir. La regla simple: empieza con el mínimo que Meta requiere para el aprendizaje, que es entre $5-$10 dólares por día por conjunto de anuncios. Con $10/día tienes suficientes datos en 7-14 días para saber si la campaña funciona. No necesitas miles de dólares para comenzar — necesitas datos. Una vez que veas que el costo por lead o por venta es rentable (menor que tu ganancia por cliente), duplica el presupuesto gradualmente: de $10 a $20, luego a $40, luego a $80. Nunca aumentes más del 20-30% por semana para no interrumpir el aprendizaje de la IA.",
+      "tips": [
+        "Calcula tu 'CPA objetivo' antes de lanzar: si ganas $200 por cliente y quieres 30% de margen de adquisición, tu CPA máximo es $60",
+        "Si el costo por resultado supera tu CPA objetivo en los primeros 7 días, cambia el creativo (el anuncio), no la audiencia",
+        "Escala horizontal (más conjuntos de anuncios con el mismo presupuesto) antes de escalar vertical (más presupuesto al mismo conjunto)"
+      ],
+      "imagePrompt": "Sleek financial planning interface on a tablet showing Meta Ads budget scaling calculator with ROI projections, upward trending performance charts, dollar signs transforming into customer icons in a visual flow diagram, confident entrepreneur reviewing metrics on a bright modern terrace office, natural daylight with soft shadows, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Interpreta Tus Resultados y Optimiza Con Claude",
+      "description": "Después de 7 días, exporta los datos de tu campaña desde Meta Ads Manager (CTR, CPM, CPC, costo por resultado). Luego ve a Claude AI y dale los números con este prompt: 'Analiza estos resultados de Meta Ads y dime qué está funcionando, qué está fallando y dame 3 acciones específicas para mejorar el rendimiento esta semana: [pega tus métricas]'. Claude te va a interpretar los datos y darte un plan de acción concreto. Este ciclo — lanzar, medir, consultar Claude, optimizar — es el sistema que los mejores agencias cobran miles de dólares por ejecutar. Tú lo puedes hacer solo con estas herramientas.",
+      "tips": [
+        "Un CTR mayor a 1% en feed es buena señal — si es menor, el problema está en el hook del video",
+        "Si el CPM es muy alto (mayor a $20), la audiencia está saturada o el anuncio no es relevante para la audiencia que Meta está alcanzando",
+        "Pídele a Claude variaciones del anuncio basadas en los datos: 'El hook A tuvo CTR de 2.5% y el B de 0.8%, ¿qué tiene el A que debería replicar?'"
+      ],
+      "imagePrompt": "Split screen showing Meta Ads analytics dashboard with detailed performance metrics on the left and Claude AI interface providing strategic recommendations on the right, data visualization with graphs and percentage improvements, focused entrepreneur at a premium workstation late at night with city lights visible through floor-to-ceiling windows, cool blue neon ambiance, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Automatiza el Seguimiento Con un Agente IA de WhatsApp",
+      "description": "El 80% de los prospectos que llenan un formulario de Meta no compran en el primer contacto — se necesita seguimiento. Configura un Agente de Inteligencia Artificial conectado a tu WhatsApp Business que responda automáticamente en menos de 60 segundos cuando alguien llena tu formulario de Meta Leads. El agente debe calificar al prospecto con 3-5 preguntas clave, agendar una llamada o enviar tu oferta directamente. Usa plataformas como GoHighLevel, ManyChat o Zapier + Claude API para construir este flujo. Con este paso, tu sistema trabaja 24/7 sin que tú estés presente, convirtiendo leads fríos en clientes calientes.",
+      "tips": [
+        "El mensaje inicial del agente debe llegar en menos de 5 minutos — cada minuto adicional reduce la tasa de respuesta un 10%",
+        "Diseña el flujo de calificación con Claude: pídele 'Crea 5 preguntas de calificación para [tu negocio] que identifiquen si el prospecto puede pagar [tu precio]'",
+        "Integra tu Agente IA directamente con tu calendario para que agende llamadas automáticamente sin intervención humana"
+      ],
+      "imagePrompt": "Futuristic visualization of WhatsApp Business interface with automated AI conversation bubbles flowing in real-time, connected to Meta Ads lead forms through glowing digital pathways, smartphone in the foreground showing active chat conversations converting leads, abstract neural network in the background representing AI processing, warm amber and electric blue color palette, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
