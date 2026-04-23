@@ -1,0 +1,71 @@
+{
+  "title": "El Sistema de 5 Pasos Para Generar Clientes Con Meta Ads e IA",
+  "subtitle": "Lo Que los PROs Hacen Diferente (y Tú Puedes Implementar Hoy)",
+  "intro": "La diferencia entre un negocio que genera clientes con Meta Ads y uno que quema presupuesto sin resultados no es el dinero — es el proceso. Mientras la mayoría sigue impulsando publicaciones con el botón de Boost y respondiendo mensajes al día siguiente, los profesionales tienen un sistema: Claude audita sus campañas en segundos, WhatsApp captura el número en tiempo real, y un Agente de IA responde antes de que el lead pierda el interés. En esta guía te entrego exactamente ese sistema — paso a paso, con las herramientas reales y las decisiones que convierten presupuesto en clientes rentables.",
+  "coverImagePrompt": "Split dramatic scene: left side shows a dimly lit frustrated entrepreneur staring at a laptop with a single blurry bar chart and empty inbox, money floating away in smoke; right side shows a sleek dark workspace with three monitors — one showing Meta Ads Manager with green CPL metrics, one showing a WhatsApp Business conversation with instant AI response, one showing Claude AI interface with campaign audit results highlighted — neon cyan accents, cinematic lighting, photorealistic, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Quieres Implementar Este Sistema Con Soporte Directo?",
+  "ctaText": "En AION Growth LAB te enseñamos a generar clientes con Meta Ads + IA desde cero hasta escala. Accede a entrenamientos en vivo, soporte directo de Ricardo La Rocca y una comunidad de emprendedores hispanos que ya están aplicando este sistema para crecer sus negocios de forma rentable.",
+  "steps": [
+    {
+      "title": "Audita Tu Campaña Con Claude Antes de Gastar Más",
+      "description": "Antes de aumentar presupuesto, necesitas saber exactamente qué está fallando. Copia tus métricas clave de Meta Ads Manager — CTR, CPM, CPL, frecuencia, relevance score — y pégalas en Claude con este prompt: 'Audita esta campaña de Meta Ads e identifica los 3 problemas principales que están limitando los resultados'. Claude analiza el conjunto de datos en menos de 30 segundos y te entrega un diagnóstico claro con acciones específicas. Esto elimina el juego de adivinanzas y te dice exactamente dónde enfocar la optimización antes de invertir un peso más.",
+      "tips": [
+        "Haz la auditoría cada 2-3 días, no solo cuando los resultados son malos — detectas problemas antes de que quemen tu presupuesto",
+        "Incluye en el prompt tu objetivo: '...mi meta es un CPL menor a $X' para que Claude calibre sus recomendaciones",
+        "Si una campaña supera 3 días sin conversiones a un CPL aceptable, audita antes de pausar — puede ser un problema de audiencia, no del anuncio"
+      ],
+      "imagePrompt": "Close-up of a modern dark laptop screen showing Claude AI chat interface with a Meta Ads campaign audit in progress — campaign metrics visible in a structured table on screen, AI response highlighting three specific problem areas with cyan accent colors, professional marketing analyst hands on keyboard in foreground, warm amber desk lamp illuminating the workspace, dark premium environment, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Usa el Administrador de Anuncios, No el Botón de Boost",
+      "description": "El botón de Boost que aparece debajo de tu publicación te da control mínimo: no puedes elegir objetivos de conversión, no accedes a audiencias personalizadas, no configuras ubicaciones avanzadas ni el objetivo correcto para capturar leads reales. El Administrador de Anuncios de Meta te da control total — puedes crear campañas con objetivo de mensajes a WhatsApp, optimizar por conversaciones iniciadas, excluir audiencias que ya compraron y segmentar por comportamientos específicos. La diferencia en resultados es enorme: el mismo presupuesto con el objetivo correcto puede duplicar o triplicar tus leads.",
+      "tips": [
+        "Usa el objetivo 'Mensajes' con destino WhatsApp para capturar el número de teléfono desde el primer contacto",
+        "Crea audiencias Lookalike basadas en tus clientes actuales — son tus mejores prospectos porque se parecen a quien ya te compró",
+        "Evita el objetivo 'Alcance' o 'Interacción' para generar clientes — solo sirven para branding, no para ventas"
+      ],
+      "imagePrompt": "Wide desktop setup showing Meta Ads Manager interface open on a large monitor with campaign objective selection screen visible — 'Messages' objective highlighted, audience targeting options displayed including custom audiences and lookalike audiences, budget settings panel on the right — second monitor showing WhatsApp Business with incoming conversation notifications, dark professional office setup with city view through window at night, blue ambient glow from screens, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Dirige Todo Tu Tráfico a WhatsApp Para Capturar el Número",
+      "description": "El error más costoso en Meta Ads es mandar el tráfico a un formulario nativo de Facebook o a una landing page donde el lead puede abandonar sin dejar sus datos. WhatsApp es el canal de mayor tasa de conversión en el mercado hispano — cuando alguien hace click en tu anuncio y abre un chat de WhatsApp, ya tienes su número de teléfono automáticamente. Configura tu anuncio con destino 'Iniciar conversación en WhatsApp' y un mensaje de bienvenida pregrabado que inicie la conversación sin fricción. Así, el momento en que el lead hace click, ya está en tu CRM.",
+      "tips": [
+        "Configura un mensaje de apertura automático que sea una pregunta simple: '¿Para qué ciudad o zona necesitas el servicio?' — genera respuesta inmediata",
+        "Conecta WhatsApp Business a un CRM como GoHighLevel para que cada nuevo contacto se registre automáticamente en tu pipeline",
+        "Usa el número de WhatsApp Business API (no personal) — te permite automatizar sin límite de mensajes"
+      ],
+      "imagePrompt": "Smartphone floating in mid-air showing WhatsApp Business chat interface with a new conversation starting from a Meta Ads click — green notification badge, first message from customer appearing, automated welcome message response visible — in the background, a blurred dashboard showing 'New Lead Captured' with contact information populated automatically, dark background with warm green and white WhatsApp accent lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Crea 10 Variaciones de Anuncios y Deja Que los Datos Elijan",
+      "description": "Un solo anuncio es una sola hipótesis. Los PROs prueban múltiples versiones simultáneamente y dejan que el mercado decida cuál convierte mejor — sin opiniones, sin suposiciones. Usa Claude para generar 10 variaciones del mismo anuncio cambiando el hook de apertura, el ángulo del problema, el CTA y la prueba social. Lanza todas con el mismo presupuesto diario mínimo y en 48 horas tendrás datos estadísticamente significativos que te indican cuál funciona. Apaga las que no convierten, escala el ganador — así de simple.",
+      "tips": [
+        "Pide a Claude: 'Dame 10 variaciones de este anuncio con hooks distintos, cada uno atacando un ángulo diferente del problema del cliente'",
+        "Prueba una variable a la vez para saber exactamente qué generó el cambio — no cambies imagen Y texto al mismo tiempo",
+        "48 horas con un presupuesto mínimo de $5-10 por día por anuncio es suficiente para tener datos de calidad en audiencias de tamaño medio"
+      ],
+      "imagePrompt": "Overhead flat-lay view of a tablet showing a Meta Ads creative testing dashboard with 10 ad variations displayed in a grid — different thumbnails with colored performance metrics below each one, two ads highlighted with 'Winner' green glow and others dimmed with lower performance indicators, a stylus pen on the side, dark marble surface, professional marketing setup, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Implementa un Agente IA Que Responda en Menos de 10 Segundos",
+      "description": "La velocidad de respuesta es uno de los factores de conversión más críticos en ventas: el 78% de los clientes compra al primero que les responde. Si tu lead escribe a las 11pm y tú respondes al día siguiente, ya compró con la competencia. Un Agente de IA conectado a WhatsApp responde al instante, califica al prospecto, recopila información clave (zona, presupuesto, necesidad específica) y agenda una llamada o entrega un presupuesto automático — sin que tú hagas nada. Se configura una vez y trabaja 24/7, incluyendo fines de semana y feriados.",
+      "tips": [
+        "Construye tu Agente IA en GoHighLevel o ManyChat conectado a WhatsApp Business API — ambas plataformas tienen integraciones nativas con Meta Ads",
+        "El agente debe calificar al lead en las primeras 3 preguntas: ¿tiene urgencia?, ¿tiene presupuesto?, ¿es el tomador de decisión?",
+        "Configura una transferencia a humano automática cuando el lead dice 'quiero hablar con alguien' — la IA cierra la brecha, el humano cierra la venta"
+      ],
+      "imagePrompt": "Dynamic visualization of a WhatsApp conversation on a floating smartphone — AI agent response appearing with a 9-second timestamp indicator, conversation showing automated qualification questions with instant responses, split-screen showing the back-end AI workflow automation diagram with nodes and connections glowing in cyan and purple, dark background with digital network patterns, clock showing late night hour, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Calcula Tu CPL y Pivotea Si No Es Rentable",
+      "description": "El Costo Por Lead (CPL) es el número más importante de tu negocio de publicidad. Para calcularlo: divide el gasto total de la campaña entre el número de leads obtenidos. Si gastaste $300 y obtuviste 15 leads, tu CPL es $20. Ahora compáralo con tu margen real: si cada cliente te genera $500 de utilidad neta y cierras 1 de cada 10 leads, necesitas un CPL menor a $50 para ser rentable. Si no es rentable, no apagues todo — pivotea primero: cambia el creativo, la audiencia, el destino o el ángulo del mensaje. Solo cuando has pivoteado 3-4 veces sin mejora, es momento de replantear la oferta.",
+      "tips": [
+        "Configura un dashboard simple en Google Sheets con: gasto diario, leads generados, CPL por día y CPL acumulado — 5 minutos al día de revisión",
+        "Define tu CPL máximo rentable antes de lanzar — así sabes exactamente cuándo pivotar y cuándo escalar sin emociones",
+        "Un CPL que sube semana a semana es señal de fatiga de audiencia — rota los creativos o expande la audiencia antes de que escale más"
+      ],
+      "imagePrompt": "Close-up of a business analytics dashboard on a curved ultrawide monitor showing CPL metrics with a clear downward trend line from week 1 to week 4 — revenue per lead graph trending upward simultaneously, ROI percentage highlighted in glowing green, pivot decision moment highlighted with a yellow marker on a specific data point, dark professional environment with charts reflecting on the glossy desk surface, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
