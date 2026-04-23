@@ -1,0 +1,61 @@
+{
+  "title": "PRO vs Mediocre: Cómo los Expertos Usan IA Para Dominar Meta Ads",
+  "subtitle": "Las 4 Diferencias Que Separan los Resultados",
+  "intro": "La mayoría de negocios enciende una campaña en Meta Ads, le pone presupuesto y espera. Los profesionales hacen algo completamente distinto: usan Inteligencia Artificial como herramienta de decisión en cada etapa del proceso. En esta guía vas a descubrir exactamente qué hacen diferente los PROs — desde cómo investigan a su cliente ideal, hasta cómo auditan sus campañas y escalan solo lo que es rentable. Si aplicas estos 4 principios, dejarás de adivinar y empezarás a tomar decisiones basadas en datos con el respaldo de la IA más avanzada del mercado.",
+  "coverImagePrompt": "Split-screen dramatic composition: left side shows a chaotic desk with scattered papers, blurry analytics charts, money burning, frustrated business owner; right side shows a sleek professional workspace with multiple monitors displaying clean Meta Ads dashboards, glowing AI interface panels with neural network patterns, sharp ROI metrics in green, confident entrepreneur reviewing data. High contrast cinematic lighting, deep shadows, neon blue accents, photorealistic, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Implementar el Sistema PRO Con Ayuda Real?",
+  "ctaText": "En AION Growth LAB te enseñamos a generar clientes con Meta Ads + IA de forma sistemática y rentable. Accede a entrenamientos en vivo, soporte directo de Ricardo La Rocca y una comunidad de emprendedores hispanos que ya están aplicando este sistema para escalar sus negocios.",
+  "steps": [
+    {
+      "title": "Audita Tus Campañas Con IA Cada 2 o 3 Días",
+      "description": "El PRO no espera fin de mes para revisar resultados. Utiliza herramientas como Claude Code y Manus para hacer auditorías frecuentes — cada 2 o 3 días — analizando métricas clave como CTR, CPL, frecuencia y relevancia. Este hábito te permite detectar problemas antes de que quemen tu presupuesto y encontrar oportunidades de optimización mientras la campaña aún tiene datos frescos. El proceso es simple: exportas los datos de Meta, se los pasas a Claude con un prompt de auditoría y obtienes un diagnóstico claro con recomendaciones específicas. La diferencia entre un PRO y un mediocre está en la frecuencia y la precisión con la que revisan sus números.",
+      "tips": [
+        "Usa Claude Code con acceso a tus reportes de Meta para generar un análisis automático de tus métricas más importantes",
+        "Configura alertas en Meta Ads Manager para recibir notificaciones cuando el CPL supere tu umbral de rentabilidad",
+        "No audites solo para ver números — audita para decidir: ¿apagar, optimizar o escalar?"
+      ],
+      "imagePrompt": "Professional marketing analyst sitting at a modern desk with ultrawide monitors showing Meta Ads Manager dashboard with campaign performance charts, CPL metrics highlighted in cyan, AI chat interface open on side panel showing automated audit analysis, dark office environment with blue ambient lighting, notebook with handwritten notes visible, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Investiga el Dolor Exacto de Tu Cliente Con Perplexity",
+      "description": "Antes de crear un solo anuncio, el PRO pasa tiempo entendiendo a profundidad quién es su cliente y qué dolor específico tiene. Perplexity AI es ideal para esto porque busca en tiempo real en foros, Reddit, grupos de Facebook y reviews de competidores para encontrar el lenguaje exacto que usa tu audiencia. No se trata de suposiciones — se trata de citar las palabras exactas que tu cliente usa para describir su problema. Cuando tu anuncio usa el mismo lenguaje que usa tu cliente para describir su propio dolor, el CTR se dispara porque la persona siente que le estás hablando directamente a ella. Este paso toma 30 minutos y multiplica la efectividad de todo lo que viene después.",
+      "tips": [
+        "Pregúntale a Perplexity: '¿Cuáles son las principales frustraciones de [tu cliente ideal] con [tu industria]?' y analiza los patrones",
+        "Busca en Reddit y grupos de Facebook las quejas más recurrentes de tu audiencia — ahí están los hooks más poderosos",
+        "Guarda los fragmentos de texto reales de clientes (reviews, comentarios) para usarlos directamente en tus anuncios"
+      ],
+      "imagePrompt": "Close-up of a laptop screen showing Perplexity AI interface with a detailed search about customer pain points, surrounding the laptop are sticky notes with customer insights, a coffee cup, notepad with persona sketches, warm golden desk lamp illuminating the scene, cozy focused work environment, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Define Tu Oferta Irresistible y Tu Cliente Ideal Antes de Gastar",
+      "description": "El error más costoso en Meta Ads es encender una campaña sin tener claro quién es exactamente tu cliente ideal y qué problema específico resuelves para él. El PRO tiene documentado su ICP (Ideal Customer Profile): edad, situación actual, objetivo deseado, mayor frustración, objeciones principales y el resultado tangible que le entrega. Con esta información, cada decisión de campaña — copy, imagen, segmentación, oferta — se vuelve obvia. Si no tienes esto claro, cualquier presupuesto que inviertas es básicamente una apuesta. Tómate 2 horas para documentar tu cliente ideal y tu oferta antes de crear tu próxima campaña y verás cómo todo cambia.",
+      "tips": [
+        "Usa Claude para construir tu ICP: 'Basándote en esta descripción de mi negocio, construye un perfil detallado de mi cliente ideal con sus dolores, deseos y objeciones'",
+        "Tu oferta irresistible debe responder: ¿qué resultado específico obtienes, en cuánto tiempo y con qué garantía?",
+        "Evita ofertas genéricas como 'asesoría de marketing' — sé específico: 'X clientes nuevos en 90 días o te devolvemos el dinero'"
+      ],
+      "imagePrompt": "Overhead view of a clean modern desk with a strategic planning document showing ideal customer profile framework, laptop with AI assistant interface open, colorful persona cards arranged around the workspace, a professional notebook with business strategy diagrams, bright modern office with natural light and plants, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Genera 10 Variaciones de Anuncios Con Claude en Minutos",
+      "description": "El PRO nunca lanza un solo anuncio — siempre prueba múltiples variaciones para que el algoritmo de Meta identifique cuál resuena más con la audiencia. El proceso es simple: le pasas a Claude tu oferta completa, el perfil de tu cliente ideal y le pides 10 variaciones de copy con diferentes ángulos — dolor, transformación, curiosidad, prueba social, urgencia. En cuestión de minutos tienes material para semanas de testing. Cada variación ataca un ángulo emocional diferente, lo que te permite identificar cuál mensaje conecta mejor con tu audiencia específica. Esta práctica reduce el costo por lead de forma dramática porque dejas de adivinar y empiezas a testear con intención.",
+      "tips": [
+        "Especifica el formato que quieres: 'Dame 10 variaciones de copy para anuncio de 3 líneas — hook, cuerpo y CTA — para cada ángulo emocional diferente'",
+        "Prueba al menos 3-5 variaciones simultáneamente en Meta antes de declarar un ganador — necesitas suficiente data",
+        "Guarda un 'banco de copy' con los ángulos que mejor funcionan en tu nicho para reutilizarlos en futuras campañas"
+      ],
+      "imagePrompt": "Split view showing Claude AI interface on a large monitor with multiple ad copy variations displayed in clean columns, on the desk beside the monitor there are printed ad mockups with different headlines, a Meta Ads creative testing dashboard visible on a tablet, professional dark workspace with accent lighting, creative agency aesthetic, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Analiza el Costo Por Lead Antes de Escalar — y Apaga lo Que No Funciona",
+      "description": "Escalar sin datos es el camino más rápido para perder dinero en Meta Ads. El PRO establece un CPL máximo aceptable antes de encender la campaña — basado en el valor de vida del cliente y el margen del negocio. Si una campaña supera ese umbral, no espera: la apaga, analiza qué falló y pivotea. Si está por debajo del umbral, incrementa el presupuesto de forma gradual (máximo 20-30% cada 48-72 horas) para no romper el aprendizaje del algoritmo. Este sistema elimina las decisiones emocionales y te da un proceso claro y repetible para gestionar tu presupuesto publicitario como un profesional.",
+      "tips": [
+        "Calcula tu CPL máximo así: (Valor de vida del cliente × Tasa de cierre) × 0.3 = CPL máximo que puedes pagar y ser rentable",
+        "Nunca dupliques el presupuesto de golpe — Meta reinicia el aprendizaje y pagas más por los mismos resultados",
+        "Crea una hoja de control con: presupuesto diario, CPL objetivo, CPL real, decisión (escalar/mantener/apagar)"
+      ],
+      "imagePrompt": "Business professional reviewing Meta Ads performance metrics on a large curved monitor with clear ROI charts showing cost per lead trending downward in green, a second screen showing campaign budget allocation spreadsheet, calculator and financial documents on the desk, sleek executive office environment with city view at night through window, cool blue and green color palette, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
