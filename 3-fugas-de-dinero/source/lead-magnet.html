@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>3 Fugas de Dinero — AION Growth Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    background: #0a0a0a;
+    color: #e8e4d8;
+    font-family: 'Inter', sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 297mm;
+    height: 210mm;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    background: #0a0a0a;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  /* Decorative grid of dots */
+  .dot-grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(244,196,48,0.08) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+  }
+  .vignette {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.85) 100%);
+    pointer-events: none;
+  }
+  .gold-line {
+    position: absolute;
+    width: 60px; height: 2px;
+    background: linear-gradient(90deg, #f4c430, transparent);
+  }
+
+  /* === COVER === */
+  .cover {
+    padding: 22mm 24mm;
+    display: flex; flex-direction: column; justify-content: space-between;
+    background: radial-gradient(ellipse at 30% 20%, #1a1410 0%, #0a0a0a 60%);
+  }
+  .cover-top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .brand-mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10pt; letter-spacing: 0.25em;
+    color: #f4c430; text-transform: uppercase;
+    border: 1px solid rgba(244,196,48,0.4);
+    padding: 6px 14px;
+  }
+  .cover-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9pt; letter-spacing: 0.3em;
+    color: rgba(232,228,216,0.5); text-transform: uppercase;
+  }
+  .cover-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 78pt;
+    line-height: 0.95;
+    color: #f5f1e6;
+    letter-spacing: -0.02em;
+  }
+  .cover-title .gold { color: #f4c430; font-style: italic; font-weight: 400; }
+  .cover-subtitle {
+    font-size: 16pt;
+    line-height: 1.4;
+    color: rgba(232,228,216,0.75);
+    max-width: 200mm;
+    font-weight: 300;
+    margin-top: 14mm;
+  }
+  .cover-bottom {
+    display: flex; justify-content: space-between; align-items: flex-end;
+  }
+  .cover-warning {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10pt;
+    color: #f4c430;
+    letter-spacing: 0.1em;
+    max-width: 120mm;
+  }
+  .cover-warning::before { content: "▸ "; }
+  .page-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9pt;
+    color: rgba(232,228,216,0.4);
+    letter-spacing: 0.2em;
+  }
+
+  /* === INTRO PAGE === */
+  .intro {
+    padding: 26mm 30mm;
+    display: flex; flex-direction: column; justify-content: center;
+    background: linear-gradient(135deg, #0a0a0a 0%, #14100a 100%);
+  }
+  .intro-kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10pt; letter-spacing: 0.3em;
+    color: #f4c430; text-transform: uppercase;
+    margin-bottom: 10mm;
+  }
+  .intro-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 42pt; line-height: 1.1;
+    color: #f5f1e6;
+    font-weight: 700;
+    max-width: 230mm;
+    margin-bottom: 10mm;
+  }
+  .intro-body {
+    font-size: 14pt; line-height: 1.6;
+    color: rgba(232,228,216,0.8);
+    max-width: 200mm;
+    font-weight: 300;
+  }
+  .intro-body strong { color: #f4c430; font-weight: 600; }
+
+  /* === FUGA PAGES === */
+  .fuga {
+    padding: 18mm 22mm;
+    display: grid;
+    grid-template-columns: 90mm 1fr;
+    gap: 12mm;
+    align-items: stretch;
+  }
+  .fuga-left {
+    display: flex; flex-direction: column; justify-content: space-between;
+    border-right: 1px solid rgba(244,196,48,0.2);
+    padding-right: 12mm;
+  }
+  .fuga-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 200pt;
+    line-height: 0.85;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px #f4c430;
+    letter-spacing: -0.05em;
+  }
+  .fuga-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9pt; letter-spacing: 0.25em;
+    color: #f4c430; text-transform: uppercase;
+    margin-bottom: 8mm;
+  }
+  .fuga-visual {
+    width: 100%;
+    height: 80mm;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 6mm;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .fuga-icon-wrap {
+    width: 70mm; height: 70mm;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(244,196,48,0.15) 0%, transparent 70%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+  }
+  .fuga-icon-wrap::before {
+    content: "";
+    position: absolute; inset: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(244,196,48,0.25);
+    animation: none;
+  }
+  .fuga-icon-wrap::after {
+    content: "";
+    position: absolute; inset: 8mm;
+    border-radius: 50%;
+    border: 1px dashed rgba(244,196,48,0.15);
+  }
+  .fuga-right {
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .fuga-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 34pt; line-height: 1.05;
+    color: #f5f1e6;
+    font-weight: 700;
+    margin-bottom: 8mm;
+    max-width: 170mm;
+  }
+  .fuga-problem {
+    font-size: 12pt; line-height: 1.65;
+    color: rgba(232,228,216,0.82);
+    font-weight: 300;
+    margin-bottom: 8mm;
+  }
+  .fuga-problem strong { color: #f5f1e6; font-weight: 600; }
+  .fix-box {
+    background: linear-gradient(135deg, rgba(244,196,48,0.08) 0%, rgba(244,196,48,0.02) 100%);
+    border: 1px solid rgba(244,196,48,0.3);
+    border-left: 3px solid #f4c430;
+    padding: 8mm 10mm;
+    margin-bottom: 6mm;
+  }
+  .fix-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt; letter-spacing: 0.3em;
+    color: #f4c430; text-transform: uppercase;
+    margin-bottom: 3mm;
+  }
+  .fix-tool {
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt; font-weight: 700;
+    color: #f5f1e6;
+    margin-bottom: 3mm;
+  }
+  .fix-desc {
+    font-size: 11pt; line-height: 1.55;
+    color: rgba(232,228,216,0.8);
+    font-weight: 300;
+  }
+  .metric-row {
+    display: flex; gap: 8mm;
+    padding-top: 6mm;
+    border-top: 1px solid rgba(232,228,216,0.1);
+  }
+  .metric {
+    flex: 1;
+  }
+  .metric-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 28pt;
+    font-weight: 700;
+    color: #f4c430;
+    line-height: 1;
+  }
+  .metric-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    color: rgba(232,228,216,0.6);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 2mm;
+  }
+  .worst-badge {
+    display: inline-block;
+    background: #7a1a1a;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.25em;
+    padding: 3px 8px;
+    margin-right: 8px;
+    text-transform: uppercase;
+  }
+
+  /* === CTA PAGE === */
+  .cta {
+    padding: 22mm 30mm;
+    display: flex; flex-direction: column; justify-content: space-between;
+    background:
+      radial-gradient(ellipse at 80% 20%, rgba(244,196,48,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 20% 80%, rgba(244,196,48,0.05) 0%, transparent 50%),
+      #0a0a0a;
+  }
+  .cta-top {
+    display: flex; justify-content: space-between; align-items: flex-start;
+  }
+  .cta-main {
+    display: grid;
+    grid-template-columns: 1fr 70mm;
+    gap: 16mm;
+    align-items: center;
+  }
+  .cta-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 52pt; line-height: 1;
+    font-weight: 900;
+    color: #f5f1e6;
+    letter-spacing: -0.02em;
+    margin-bottom: 8mm;
+  }
+  .cta-headline .gold { color: #f4c430; font-style: italic; font-weight: 400; }
+  .cta-body {
+    font-size: 13pt; line-height: 1.6;
+    color: rgba(232,228,216,0.8);
+    font-weight: 300;
+    margin-bottom: 8mm;
+    max-width: 160mm;
+  }
+  .cta-body strong { color: #f5f1e6; font-weight: 600; }
+  .cta-bullets {
+    list-style: none;
+    margin-bottom: 10mm;
+  }
+  .cta-bullets li {
+    font-size: 12pt; line-height: 1.5;
+    color: rgba(232,228,216,0.85);
+    padding-left: 10mm;
+    position: relative;
+    margin-bottom: 3mm;
+    font-weight: 400;
+  }
+  .cta-bullets li::before {
+    content: "→";
+    position: absolute; left: 0;
+    color: #f4c430;
+    font-weight: 700;
+  }
+  .cta-button {
+    display: inline-block;
+    background: #f4c430;
+    color: #0a0a0a;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 14pt;
+    letter-spacing: 0.05em;
+    padding: 6mm 12mm;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+  }
+  .cta-url {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10pt;
+    color: rgba(232,228,216,0.6);
+    margin-top: 4mm;
+    letter-spacing: 0.05em;
+  }
+  .qr-box {
+    background: #0a0a0a;
+    border: 1px solid rgba(244,196,48,0.3);
+    padding: 6mm;
+    text-align: center;
+  }
+  .qr-box img {
+    width: 55mm; height: 55mm;
+    display: block;
+  }
+  .qr-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    color: #f4c430;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-top: 4mm;
+  }
+  .cta-footer {
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 1px solid rgba(232,228,216,0.1);
+    padding-top: 6mm;
+  }
+  .footer-brand {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9pt;
+    color: rgba(232,228,216,0.5);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .footer-brand strong { color: #f4c430; }
+</style>
+</head>
+<body>
+
+<!-- === COVER === -->
+<section class="page cover">
+  <div class="dot-grid"></div>
+  <div class="vignette"></div>
+
+  <div class="cover-top">
+    <div class="brand-mark">AION · Growth Lab</div>
+    <div class="cover-label">Lead Magnet · 2026</div>
+  </div>
+
+  <div>
+    <div class="cover-label" style="margin-bottom: 8mm;">Sistema anti-fugas — Edición I</div>
+    <h1 class="cover-title">3 Fugas de Dinero<br><span class="gold">que te están</span><br>desangrando<br>el negocio.</h1>
+    <p class="cover-subtitle">Las 3 herramientas de inteligencia artificial que usé para sellarlas todas —
+    y por qué <strong style="color:#f4c430">la última es la que tú tienes abierta ahora mismo</strong> sin saberlo.</p>
+  </div>
+
+  <div class="cover-bottom">
+    <div class="cover-warning">LEE HASTA LA FUGA 03 — ES LA PEOR DE LAS TRES Y LA MÁS SILENCIOSA.</div>
+    <div class="page-number">01 / 06</div>
+  </div>
+</section>
+
+<!-- === INTRO === -->
+<section class="page intro">
+  <div class="dot-grid"></div>
+  <div class="intro-kicker">▸ El diagnóstico</div>
+  <h2 class="intro-headline">Tu negocio no tiene un problema de ventas.<br>
+  Tiene <em style="color:#f4c430; font-style:italic;">tres fugas abiertas</em><br>
+  que están drenando tu facturación en silencio.</h2>
+  <p class="intro-body">
+  La mayoría de dueños de negocio se obsesionan con <strong>traer más tráfico</strong> cuando el verdadero
+  problema es que <strong>están perdiendo el tráfico que ya tienen</strong>. No te falta publicidad —
+  te falta un sistema que convierta lo que ya entra. En las próximas 3 páginas te voy a mostrar
+  exactamente qué fuga estás teniendo, con qué herramienta la cerré yo, y qué pasó después.
+  </p>
+</section>
+
+<!-- === FUGA 01 === -->
+<section class="page fuga">
+  <div class="dot-grid"></div>
+
+  <div class="fuga-left">
+    <div>
+      <div class="fuga-badge">Fuga 01 · Velocidad</div>
+      <div class="fuga-number">01</div>
+    </div>
+    <div class="fuga-visual">
+      <div class="fuga-icon-wrap">
+        <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#f4c430" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="fuga-right">
+    <div>
+      <h2 class="fuga-title">Dejar dinero en la mesa por no responder a tiempo.</h2>
+      <p class="fuga-problem">
+      El lead escribe, tú tardas 4 horas en contestar, y cuando vuelves ya <strong>se fue con el competidor
+      que sí estaba atento.</strong> No hay forma de recuperarlo. Esa persona estaba caliente, lista para comprar,
+      y la perdiste por minutos. Multiplica eso por 50 leads al mes y entiendes la hemorragia.
+      </p>
+
+      <div class="fix-box">
+        <div class="fix-label">◆ La herramienta</div>
+        <div class="fix-tool">N8N — Agentes de IA</div>
+        <div class="fix-desc">
+        Monté agentes de IA en N8N que <strong style="color:#f4c430">responden al lead en menos de 30 segundos</strong>,
+        lo precalifican con las preguntas correctas y me entregan solo los leads ya calientes y con intención de compra.
+        Yo duermo, el sistema vende.
+        </div>
+      </div>
+    </div>
+
+    <div class="metric-row">
+      <div class="metric">
+        <div class="metric-value">&lt;30s</div>
+        <div class="metric-label">Tiempo de respuesta</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">24/7</div>
+        <div class="metric-label">Sin supervisión</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">+Lead Score</div>
+        <div class="metric-label">Solo leads calientes</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- === FUGA 02 === -->
+<section class="page fuga">
+  <div class="dot-grid"></div>
+
+  <div class="fuga-left">
+    <div>
+      <div class="fuga-badge">Fuga 02 · Seguimiento</div>
+      <div class="fuga-number">02</div>
+    </div>
+    <div class="fuga-visual">
+      <div class="fuga-icon-wrap">
+        <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#f4c430" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 3h18l-7 9v7l-4 2v-9z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="fuga-right">
+    <div>
+      <h2 class="fuga-title">Perder clientes por no dar seguimiento.</h2>
+      <p class="fuga-problem">
+      Creer que la venta se cierra en el primer mensaje <strong>es una fantasía</strong>. El 80% de tus ventas
+      están en los seguimientos del día 3, 7, 14 — y tú no los haces porque no tienes tiempo, no tienes
+      sistema, o simplemente te olvidas. Cada lead sin seguimiento es una venta que ya pagaste con tu publicidad
+      y que estás regalando.
+      </p>
+
+      <div class="fix-box">
+        <div class="fix-label">◆ La herramienta</div>
+        <div class="fix-tool">Go High Level</div>
+        <div class="fix-desc">
+        Un CRM que <strong style="color:#f4c430">le hace seguimiento automático a cada prospecto</strong>
+        por email, SMS y WhatsApp en las ventanas críticas de decisión. No se olvida de ninguno,
+        no descansa, no se pone de mal humor. El porcentaje de cierre sube de forma brutal.
+        </div>
+      </div>
+    </div>
+
+    <div class="metric-row">
+      <div class="metric">
+        <div class="metric-value">+Cierre</div>
+        <div class="metric-label">% de conversión</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">Multi-canal</div>
+        <div class="metric-label">Email · SMS · WhatsApp</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">0 leads</div>
+        <div class="metric-label">Olvidados en el CRM</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- === FUGA 03 === -->
+<section class="page fuga">
+  <div class="dot-grid"></div>
+
+  <div class="fuga-left">
+    <div>
+      <div class="fuga-badge"><span class="worst-badge">La peor</span> Fuga 03 · Fricción</div>
+      <div class="fuga-number">03</div>
+    </div>
+    <div class="fuga-visual">
+      <div class="fuga-icon-wrap">
+        <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#f4c430" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="6" y="3" width="12" height="18" rx="1"/>
+          <path d="M10 12h4"/>
+          <circle cx="15" cy="12" r="0.6" fill="#f4c430"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="fuga-right">
+    <div>
+      <h2 class="fuga-title">Gastar horas con curiosos que nunca te van a comprar.</h2>
+      <p class="fuga-problem">
+      Esta es la peor de las tres. Dedicas tu día completo a responder a gente que <strong>solo tiene
+      curiosidad</strong>, que nunca tuvo intención real de comprar. Te quitan el tiempo, la paciencia, la energía —
+      y al final del mes cerraste la mitad de lo que podrías haber cerrado si hubieras hablado solo con los
+      que sí iban a pagar.
+      </p>
+
+      <div class="fix-box">
+        <div class="fix-label">◆ La herramienta</div>
+        <div class="fix-tool">Claude Code — Fricción estratégica</div>
+        <div class="fix-desc">
+        Le pedí a Claude Code que <strong style="color:#f4c430">incrementara la fricción en mi mensaje
+        de entrada</strong>. Ahora cualquiera que pasa por mi publicidad ya atravesó una barrera de calificación
+        antes de llegar a mí. No quiero a cualquiera. Quiero a personas con intención real de invertir en su negocio.
+        </div>
+      </div>
+    </div>
+
+    <div class="metric-row">
+      <div class="metric">
+        <div class="metric-value">-Curiosos</div>
+        <div class="metric-label">Filtro desde el ad</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">+Ticket</div>
+        <div class="metric-label">Clientes de alto valor</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">+Tiempo</div>
+        <div class="metric-label">Para lo importante</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- === CTA === -->
+<section class="page cta">
+  <div class="dot-grid"></div>
+  <div class="vignette"></div>
+
+  <div class="cta-top">
+    <div class="brand-mark">AION · Growth Lab</div>
+    <div class="cover-label">El sistema completo</div>
+  </div>
+
+  <div class="cta-main">
+    <div>
+      <h2 class="cta-headline">¿Quieres <span class="gold">el sistema completo</span><br>paso a paso?</h2>
+      <p class="cta-body">
+      Esto que acabas de leer es el <strong>resumen de alto nivel</strong>. Dentro de <strong>AION Growth Lab</strong>
+      te muestro exactamente cómo montar cada una de estas tres herramientas en tu negocio —
+      los agentes de N8N, los seguimientos de Go High Level y los filtros de fricción con Claude Code —
+      con plantillas, prompts y grabaciones mías armándolo en vivo.
+      </p>
+      <ul class="cta-bullets">
+        <li>Workflows de N8N listos para importar</li>
+        <li>Pipelines y automatizaciones de Go High Level pre-configuradas</li>
+        <li>Prompts de Claude Code para filtrar curiosos desde el primer mensaje</li>
+        <li>Comunidad privada de dueños de negocio que ya están aplicándolo</li>
+      </ul>
+      <a href="https://skool.com/aiongrowthlab/about" class="cta-button">Entrar al Skool →</a>
+      <div class="cta-url">skool.com/aiongrowthlab/about</div>
+    </div>
+
+    <div class="qr-box">
+      <img src="qr_skool.png" alt="QR Skool">
+      <div class="qr-label">Escanea</div>
+    </div>
+  </div>
+
+  <div class="cta-footer">
+    <div class="footer-brand"><strong>AION</strong> · Growth Lab · Sistema anti-fugas v1</div>
+    <div class="page-number">06 / 06</div>
+  </div>
+</section>
+
+</body>
+</html>

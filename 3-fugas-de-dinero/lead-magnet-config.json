@@ -1,0 +1,41 @@
+{
+  "title": "3 Fugas de Dinero Que Te Están Desangrando el Negocio",
+  "subtitle": "Las 3 Herramientas de IA Que Usé Para Sellarlas Todas",
+  "intro": "Tu negocio no tiene un problema de ventas — tiene tres fugas abiertas que están drenando tu facturación en silencio. La mayoría de dueños de negocio se obsesionan con traer más tráfico cuando el verdadero problema es que están perdiendo el tráfico que ya tienen. No te falta publicidad — te falta un sistema que convierta lo que ya entra. En este lead magnet te muestro las tres fugas exactas que tuve en mi negocio, con qué herramienta de IA cerré cada una, y por qué la última fuga es la peor de todas y probablemente la estés teniendo ahora mismo sin saberlo.",
+  "coverImagePrompt": "Cinematic editorial product photography of an elegant brushed-metal luxury faucet floating in mid-air against a deep charcoal black background, but instead of water droplets what flows out are glowing golden particles, streams of luminous data nodes, and softly dissolving fragments of US hundred-dollar bills transforming into radiant golden light trails. Rim lighting with dramatic side light, volumetric god rays, hyperrealistic textures on the metal and bills, shallow depth of field, premium high-ticket editorial mood, color palette jet black charcoal graphite warm gold soft amber glow, ultra-detailed 4K, 16:9 landscape composition, no text no words no letters no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Quieres El Sistema Completo Paso a Paso?",
+  "ctaText": "Esto que acabas de leer es el resumen de alto nivel. Dentro de AION Growth Lab te muestro exactamente cómo montar cada una de estas tres herramientas en tu negocio — los agentes de N8N, los seguimientos de Go High Level y los filtros de fricción con Claude Code — con plantillas, prompts y grabaciones mías armándolo en vivo. Además tienes acceso a una comunidad privada de dueños de negocio que ya están aplicándolo y entrenamientos semanales con Ricardo La Rocca.",
+  "steps": [
+    {
+      "title": "Fuga 01 — Dejar Dinero en la Mesa Por No Responder a Tiempo",
+      "description": "El lead escribe, tú tardas 4 horas en contestar, y cuando vuelves ya se fue con el competidor que sí estaba atento. No hay forma de recuperarlo. Esa persona estaba caliente, lista para comprar, y la perdiste por minutos. Multiplica eso por 50 leads al mes y entiendes la hemorragia. La herramienta: N8N — Agentes de IA. Monté agentes de IA en N8N que responden al lead en menos de 30 segundos, lo precalifican con las preguntas correctas y me entregan solo los leads ya calientes y con intención de compra. Yo duermo, el sistema vende.",
+      "tips": [
+        "Responde en menos de 30 segundos — cada minuto de demora reduce la probabilidad de cierre exponencialmente",
+        "El agente debe precalificar con 3-5 preguntas clave antes de pasarle el lead al humano (presupuesto, urgencia, encaje)",
+        "Conecta N8N a WhatsApp Business API, Instagram DM y tu formulario web para que nada se escape por ningún canal"
+      ],
+      "imagePrompt": "A modern sleek smartphone floating center-frame against a dark charcoal-black gradient background, with multiple glowing chat bubble notifications bursting outward from its screen in a chain reaction, each connected by luminous blue-gold lines to a central glowing workflow automation node with visible circular connection points and branching paths, sense of hyper-speed and real-time automation, cinematic rim lighting volumetric light lens flares particles in the air, futuristic premium high-tech automated mood, color palette jet black electric blue warm gold accents soft cyan glow, ultra-detailed 4K photorealistic render, 16:9 landscape composition, no text no words no letters no watermarks"
+    },
+    {
+      "title": "Fuga 02 — Perder Clientes Por No Dar Seguimiento",
+      "description": "Creer que la venta se cierra en el primer mensaje es una fantasía. El 80% de tus ventas están en los seguimientos del día 3, 7 y 14 — y tú no los haces porque no tienes tiempo, no tienes sistema, o simplemente te olvidas. Cada lead sin seguimiento es una venta que ya pagaste con tu publicidad y que estás regalando. La herramienta: Go High Level. Un CRM que le hace seguimiento automático a cada prospecto por email, SMS y WhatsApp en las ventanas críticas de decisión. No se olvida de ninguno, no descansa, no se pone de mal humor. El porcentaje de cierre sube de forma brutal.",
+      "tips": [
+        "Configura secuencias de seguimiento mínimo de 14 días — la mayoría de ventas no ocurre en el primer contacto",
+        "Usa multi-canal: email + SMS + WhatsApp. Si uno no abre, el otro sí. No dependas de un solo canal",
+        "Segmenta por nivel de temperatura del lead (frío, tibio, caliente) y personaliza el seguimiento de cada uno"
+      ],
+      "imagePrompt": "An elegant 3D luxury sales funnel rendered in glossy black and brushed gold tapering downward against a dark editorial background, with small glowing humanoid silhouette avatars entering the top and descending through internal stages lit by soft amber light, multiple communication channel icons email envelope SMS chat bubble WhatsApp bubble phone stream as glowing particle trails from left and right all converging into a central illuminated CRM dashboard at the funnel base radiating warm gold light, cinematic studio lighting volumetric rays hyperrealistic materials, premium corporate high-ticket aspirational automated follow-up mood, color palette matte black charcoal warm gold champagne deep amber, ultra-detailed 4K editorial product render, 16:9 landscape composition, no text no words no letters no watermarks"
+    },
+    {
+      "title": "Fuga 03 — Gastar Horas Con Curiosos Que Nunca Te Van a Comprar",
+      "description": "Esta es la peor de las tres y probablemente la que te está pasando a ti. Dedicas tu día completo a responder a gente que solo tiene curiosidad, que nunca tuvo intención real de comprar. Te quitan el tiempo, la paciencia, la energía — y al final del mes cerraste la mitad de lo que podrías haber cerrado si hubieras hablado solo con los que sí iban a pagar. La herramienta: Claude Code — Fricción estratégica. Le pedí a Claude Code que incrementara la fricción en mi mensaje de entrada. Ahora cualquiera que pasa por mi publicidad ya atravesó una barrera de calificación antes de llegar a mí. No quiero a cualquiera. Quiero a personas con intención real de invertir en su negocio.",
+      "tips": [
+        "Agrega fricción estratégica en el ad: pide que escriban una palabra clave específica, respondan una pregunta calificadora o vean un video completo antes de avanzar",
+        "Usa Claude Code para generar secuencias de mensajes que filtren curiosos con preguntas incómodas (presupuesto, compromiso, contexto)",
+        "La fricción no reduce las ventas — reduce el ruido. Vas a hablar con menos gente pero cerrar un porcentaje mucho mayor"
+      ],
+      "imagePrompt": "A tall elegant vertical portal doorway made of polished black marble and brushed brass glowing from within with warm golden light standing alone against a deep charcoal foggy atmospheric background, a line of human silhouettes approaches from the front most are dim and grey dissolving into smoke before they reach the portal but a few chosen silhouettes in the middle pass through radiating bright golden aura halos around their bodies transformed into high-value premium clients on the other side, dramatic cinematic lighting god rays through the portal volumetric fog dust particles, mysterious selective high-ticket filtered exclusive mood, color palette jet black charcoal grey warm gold champagne deep amber glow, ultra-detailed 4K cinematic render, 16:9 landscape composition, no text no words no letters no watermarks"
+    }
+  ]
+}
