@@ -1,0 +1,74 @@
+{
+  "title": "Automatiza Tus Tareas Diarias Con Claude AI",
+  "subtitle": "Guía Paso a Paso Para Configurarlo en la Nube",
+  "intro": "Imagina despertarte cada mañana con un reporte completo de las noticias más importantes de tu industria, contenido listo para publicar en tus redes y tareas repetitivas ya resueltas, todo hecho por una Inteligencia Artificial que trabaja 24/7 en la nube. Eso ya es posible con la nueva función de tareas programadas de Claude AI. Lo mejor de todo es que no necesitas dejar tu computadora encendida ni saber programar. En esta guía te enseño paso a paso cómo configurar tu primer Agente IA automatizado para que trabaje por ti todos los días, mientras tú te enfocas en lo que realmente mueve la aguja en tu negocio.",
+  "coverImagePrompt": "Modern minimalist workspace at dawn with a sleek laptop showing an AI dashboard with floating holographic task cards and a clock interface, soft purple and blue ambient lighting, glass desk reflecting the screen glow, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Automatizar Tu Negocio Con Agentes IA?",
+  "ctaText": "Únete a la comunidad de AION Growth Lab donde te ayudamos a implementar Agentes IA, Meta Ads automatizados y sistemas de generación de clientes paso a paso. Tendrás soporte directo, entrenamientos en vivo semanales y acceso a Ricardo La Rocca para resolver tus dudas y escalar tu negocio con IA.",
+  "steps": [
+    {
+      "title": "Accede a Claude y Abre la Sección Cowork",
+      "description": "Entra a tu cuenta de Claude AI desde el navegador. En el menú lateral izquierdo vas a encontrar la sección llamada Cowork, que es donde vive la nueva funcionalidad de automatización en la nube. Haz clic ahí y luego selecciona la opción Schedule. Esta es la sala de control de todas tus tareas programadas, donde podrás crear, editar y monitorear cada Agente IA que trabaje por ti.",
+      "tips": [
+        "Necesitas tener un plan Pro o superior para acceder a Cowork",
+        "Si no ves la sección Cowork, refresca la página o cierra sesión y vuelve a entrar"
+      ],
+      "imagePrompt": "Close-up of a clean modern laptop screen displaying a sleek AI chat interface with a sidebar menu highlighting a Schedule option, soft cyan glow on the active menu item, minimalist UI design with dark mode, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Crea Tu Primera Tarea Programada",
+      "description": "Una vez dentro de Schedule, haz clic en el botón Nueva Tarea para abrir el panel de creación. Aquí es donde definirás todo lo que quieres que Claude haga por ti de forma automática. Antes de llenar los campos, piensa bien qué tarea repetitiva te quita tiempo cada día y cuya ejecución no requiere tu juicio humano. Esa es la candidata perfecta para automatizar primero.",
+      "tips": [
+        "Empieza con UNA sola tarea, no quieras automatizar todo de golpe",
+        "Las mejores tareas para empezar: research diario, resúmenes de noticias, generación de contenido"
+      ],
+      "imagePrompt": "Professional hands typing on a backlit keyboard with a holographic floating panel showing task creation interface and glowing add button, deep blue and violet ambient lighting, modern home office setup, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Define el Nombre y la Descripción de la Tarea",
+      "description": "Coloca un nombre claro y específico que identifique inmediatamente qué hace esta tarea, por ejemplo Reporte Diario de Noticias IA o Generador de Contenido Semanal. Luego escribe una descripción breve explicando el propósito de la automatización. Esto es importante porque cuando tengas 10 o 20 tareas corriendo, vas a necesitar identificarlas rápido sin abrir cada una.",
+      "tips": [
+        "Usa nombres en formato Acción + Tema + Frecuencia para mayor claridad",
+        "Evita nombres genéricos como Tarea 1, te vas a perder cuando tengas varias"
+      ],
+      "imagePrompt": "Detailed view of a modern minimalist form interface floating above a wooden desk with a coffee cup and notebook beside it, soft warm morning sunlight streaming in, focus on the input fields glowing softly, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Escribe el Prompt Exacto de la Automatización",
+      "description": "Este es el corazón de la tarea. Aquí le das a Claude la instrucción completa de lo que debe hacer, como si se la dieras a un asistente humano. Mientras más específico seas, mejor será el resultado. Por ejemplo: Busca las 5 noticias más relevantes de Inteligencia Artificial de las últimas 24 horas, resúmelas en español en máximo 3 oraciones cada una y genera 3 ideas de contenido para Instagram basadas en ellas con hook viral, cuerpo y CTA.",
+      "tips": [
+        "Incluye SIEMPRE: qué buscar, en qué idioma, formato de salida y cuántos elementos quieres",
+        "Si necesitas un formato específico, dale un ejemplo dentro del mismo prompt"
+      ],
+      "imagePrompt": "Overhead shot of a designer workspace with an open laptop displaying lines of structured prompt text in a clean editor, surrounded by sticky notes with brainstorm ideas, soft natural lighting from a window, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Configura la Frecuencia de Ejecución",
+      "description": "Claude te permite elegir cuándo y con qué periodicidad correr tu tarea. Las opciones son por hora, diaria, entre semana o semanal. Para la mayoría de casos de uso prácticos, lo ideal es configurarla diaria a una hora específica que tenga sentido con tu rutina. Por ejemplo, si quieres revisar el reporte con tu café de la mañana, prográmala a las 7 AM. Si es un resumen para usarlo en contenido, prográmala antes de tu bloque creativo.",
+      "tips": [
+        "Programa tareas de research temprano en la mañana para tenerlas listas al empezar el día",
+        "Las tareas semanales funcionan mejor los lunes para planear la semana completa"
+      ],
+      "imagePrompt": "Elegant analog clock face merging with a digital calendar interface, soft golden hour lighting on a marble surface, minimalist composition with shallow depth of field, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Activa la Tarea y Verifica el Primer Resultado",
+      "description": "Una vez configurado todo, dale activar y la tarea quedará corriendo en la nube de Claude. Lo poderoso de esto es que ya no necesitas tener tu computadora abierta ni siquiera estar conectado. Espera a que se ejecute la primera vez y revisa el resultado para validar que esté entregando exactamente lo que necesitas. Si el output no es lo esperado, ajusta el prompt y vuelve a probar hasta afinarlo.",
+      "tips": [
+        "Revisa siempre la primera ejecución para detectar fallos en el prompt",
+        "Activa notificaciones para que te avise cuando la tarea termine"
+      ],
+      "imagePrompt": "Close-up of a smartphone screen showing a notification popping up with a soft glow, blurred laptop in the background on a cafe table with a cappuccino, warm cozy lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Escala con Múltiples Tareas Para Automatizar Tu Negocio",
+      "description": "Una vez que tengas tu primera tarea funcionando, repite el proceso con otras áreas de tu negocio. Algunos ejemplos de alto impacto: análisis de competencia semanal, ideas de posts diarios para redes, resumen de tus métricas clave de Meta Ads, respuestas a preguntas frecuentes de clientes y monitoreo de menciones de tu marca. Cada tarea automatizada es una hora menos que gastas en operativo y una hora más que dedicas a estrategia y crecimiento.",
+      "tips": [
+        "Combina tareas de Claude con n8n y GoHighLevel para automatizar el ciclo completo de marketing",
+        "Documenta cada prompt que funciona bien en un archivo para reutilizarlo"
+      ],
+      "imagePrompt": "Wide aerial view of a modern command center desk with multiple curved monitors showing different data dashboards and AI workflow diagrams, ambient blue and violet lighting reflecting on glass surfaces, futuristic but elegant atmosphere, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
