@@ -1,0 +1,93 @@
+{
+  "title": "Cómo Crear Imágenes Hiperrealistas Con IA Para Tus Anuncios",
+  "subtitle": "Guía Avanzada Con ChatGPT Image 2.0",
+  "intro": "ChatGPT Image 2.0 acaba de cambiar las reglas del juego para crear creativos de anuncios. Por primera vez una herramienta de IA genera imágenes hiperrealistas con texto incrustado dentro de la imagen, listas para subir directamente a Meta Ads sin pasar por Photoshop ni depender de un diseñador. En esta guía te muestro el sistema completo paso a paso: desde cómo escribir prompts de altísimo nivel hasta cómo adaptar las imágenes para cada formato de Meta y lanzarlas con A/B testing. Vas a poder producir creativos de calidad de agencia en minutos, no en días, y escalar tu testeo sin freno creativo.",
+  "coverImagePrompt": "Cinematic studio shot of a glowing futuristic monitor displaying a hyperrealistic AI-generated advertisement image, with floating holographic prompt panels and color grading interfaces around it, premium creative agency environment, deep cyan and amber accent lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Lanzar Anuncios Que Sí Convierten?",
+  "ctaText": "En AION Growth Lab te ayudamos a montar todo tu sistema de generar clientes con Meta Ads + IA: imágenes hiperrealistas con ChatGPT Image, copys con Claude AI, Agente IA en WhatsApp cerrando ventas en automático y campañas optimizadas. Entrenamientos en vivo cada semana, soporte directo y acceso a Ricardo La Rocca para que cada paso lo implementes bien desde el día uno.",
+  "steps": [
+    {
+      "title": "Define el Ángulo y Promesa de Tu Anuncio Antes de Tocar la IA",
+      "description": "Antes de generar una sola imagen, ten claridad absoluta sobre qué vendes, a quién y qué emoción quieres transmitir. Define en una hoja: el avatar de tu cliente ideal, el problema doloroso que resuelves, la promesa central del anuncio (en una sola frase) y el mood visual (urgente, aspiracional, calmado, premium). Sin este paso, las imágenes que generes serán técnicamente buenas pero comercialmente mediocres. La IA amplifica claridad — si entras vago, sale vago.",
+      "tips": [
+        "Escribe la promesa del anuncio en máximo 12 palabras: si no cabe, no está clara",
+        "Define el mood visual con 3 referencias reales (busca en Foreplay o Meta Ads Library)",
+        "Identifica un solo objetivo por imagen: vender, captar lead o generar curiosidad — nunca los tres"
+      ],
+      "imagePrompt": "Overhead shot of a creative strategist workspace with a notebook open showing handwritten ad angles and customer avatar notes, mood board with printed reference photos pinned beside, warm desk lamp illuminating the scene, hands writing with a marker, professional minimalist setup, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Genera Prompts de Altísimo Nivel Con Claude AI",
+      "description": "Abre Claude AI y pídele que te genere prompts visuales de nivel profesional para tu nicho específico. El prompt ideal es: 'Genera 5 prompts hiperrealistas en inglés para una imagen publicitaria de [tu negocio] con la promesa [tu promesa]. Incluye composición, iluminación, ángulo de cámara, estilo fotográfico, mood y paleta de color.' Claude entiende contexto comercial mejor que cualquier otra IA y te entrega prompts cinematográficos listos para pegar en ChatGPT Image. Pide siempre los prompts en inglés — los modelos de imagen rinden 30 a 40 por ciento mejor con instrucciones técnicas en inglés.",
+      "tips": [
+        "Pide variaciones por mood: una versión aspiracional, una urgente y una empática",
+        "Incluye términos fotográficos profesionales: shot type, lens, lighting setup, color grading",
+        "Guarda los 5 prompts en un documento — los vas a reutilizar para iterar en el siguiente paso"
+      ],
+      "imagePrompt": "Close-up of a widescreen monitor showing Claude AI conversation interface with detailed creative prompts being generated for advertising imagery, designer hand resting on desk holding a stylus, deep purple and electric blue rim lighting, modern creative studio at night, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Crea Tu Imagen Base Con ChatGPT Image 2.0",
+      "description": "Entra a ChatGPT con tu cuenta Plus o Pro, pega el primer prompt que te dio Claude y deja que ChatGPT Image 2.0 genere la imagen. La nueva versión es radicalmente superior a la anterior: respeta composición, ilumina como un fotógrafo profesional, y mantiene coherencia entre elementos. Genera mínimo 3 variaciones del mismo prompt antes de elegir cuál refinar — la primera casi nunca es la mejor. Si la imagen sale plana, agrega al prompt términos como 'shot on 85mm lens, f/1.4, dramatic side lighting, cinematic color grade'.",
+      "tips": [
+        "Genera siempre 3 versiones del mismo prompt y compara antes de iterar",
+        "Si la imagen sale genérica, agrega referencias a fotógrafos o estilos: 'in the style of editorial fashion photography'",
+        "Trabaja en formato horizontal primero — es más fácil recortar después que reconstruir"
+      ],
+      "imagePrompt": "Designer at a high-end workstation viewing multiple AI-generated photorealistic advertisement variations on a large color-calibrated monitor, comparing image options side by side, dimmed studio lighting with subtle blue accents on the wall, premium creative environment, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Incluye Texto Persuasivo Dentro de la Imagen",
+      "description": "Esta es la capacidad que destrona a Nano Banana: ChatGPT Image 2.0 ahora genera texto legible y bien tipografiado dentro de la imagen. Escribe en tu prompt: 'with the headline TEXTO AQUÍ in bold sans-serif font, positioned in the upper left corner, white color with subtle shadow'. Mantén el texto corto (máximo 8 palabras), elige una sola frase focal y asegura contraste con el fondo. Esta función te ahorra horas de Photoshop y te permite testear 10 variaciones de copy en imagen en el tiempo que antes tardabas en hacer una.",
+      "tips": [
+        "Texto máximo 8 palabras: títulos largos pierden el ojo del usuario en 1 segundo",
+        "Especifica posición exacta en el prompt: upper left, lower right, centered",
+        "Pide tipografías específicas: bold sans-serif, condensed display, italic serif — según el mood"
+      ],
+      "imagePrompt": "Modern advertising image being composed on screen showing a hyperrealistic product shot with bold typography overlay being added in real time, designer adjusting text placement on a graphics tablet, neon teal and warm orange lighting reflections, premium agency environment, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Refina Con Prompts de Edición Conversacional",
+      "description": "Una vez que tienes la imagen base, no la regeneres desde cero — usa la conversación para iterar. Escribe en el chat: 'make the lighting warmer and more golden hour', 'change the camera angle to a low hero shot', 'remove the background object on the right', 'add more depth of field'. ChatGPT Image 2.0 mantiene coherencia entre iteraciones, lo que significa que tu personaje, producto o composición central no se distorsiona. Limita las iteraciones a 3-5 por imagen — si después de 5 ediciones no llegaste a lo que querías, vuelve al prompt base y reformúlalo.",
+      "tips": [
+        "Una edición por mensaje: combinar varios cambios reduce la calidad del resultado",
+        "Guarda las versiones intermedias antes de iterar — a veces la versión 2 es mejor que la 5",
+        "Si la edición rompe la imagen, regresa al prompt original y reformula desde cero"
+      ],
+      "imagePrompt": "Split-screen view of an iterative image editing process showing the same advertising visual in three progressive states becoming more refined, designer workflow visible with creative software interfaces, cool tone studio lighting with warm accent on the final image, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Adapta la Imagen Para Los Formatos de Meta Ads",
+      "description": "Meta Ads exige tres formatos distintos para cubrir todas las ubicaciones: 1:1 cuadrado para feed, 9:16 vertical para Reels y Stories, y 16:9 horizontal para placements de audiencia y video. No recortes la misma imagen — pídele a ChatGPT Image que genere cada formato con el mismo prompt adaptado. Por ejemplo: 'same composition but reformatted as 9:16 vertical, keeping the main subject centered with extra negative space above and below'. Esto te asegura que el sujeto principal se vea perfecto en cada ubicación y maximiza tu CTR sin perder calidad.",
+      "tips": [
+        "Tres formatos mínimos por anuncio: 1:1 (feed), 9:16 (reels/stories), 16:9 (audience network)",
+        "Mantén el sujeto principal en el tercio central para que sobreviva todos los recortes",
+        "Si Meta te detecta texto cubriendo más del 20 por ciento, regenera con el texto más pequeño o lateral"
+      ],
+      "imagePrompt": "Display showing the same advertisement composed in three different aspect ratios — square, vertical, and horizontal — arranged side by side on a large monitor in a media buyer office, multiple devices nearby showing Meta Ads interface, subtle cyan ambient lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Lanza Tu Anuncio Con A/B Testing y Mide el CTR",
+      "description": "Sube las imágenes al Administrador de Anuncios de Meta y configura una prueba A/B con mínimo 3 variaciones de imagen contra tu creativo anterior. Usa el objetivo Mensajes con destino WhatsApp para reducir fricción y mide solo dos métricas en la primera semana: CTR (Click-Through Rate) y CPM (Costo Por Mil Impresiones). Si una imagen tiene CTR superior a 1.5 por ciento y CPM razonable para tu nicho, esa es tu ganadora — escala su presupuesto y deja correr el resto en bajo gasto. Repite el ciclo cada 7-10 días generando 3 nuevas imágenes con ChatGPT Image para mantener la fatiga creativa baja.",
+      "tips": [
+        "Empieza con presupuesto bajo: 5 a 10 dólares diarios por variación durante 4 días",
+        "Tu métrica clave es CTR, no impresiones — un CTR de 1.5 por ciento o más es excelente",
+        "Renueva creativos cada 7-10 días: la fatiga publicitaria mata campañas ganadoras si no rotas"
+      ],
+      "imagePrompt": "Meta Ads Manager dashboard on a large monitor displaying live A/B test results with three ad creative variations and their CTR and CPM metrics charted, media buyer hands on keyboard analyzing performance, golden hour light through office window, modern professional setting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "5 Prompts de Élite Listos Para Copiar y Pegar",
+      "description": "Estos son 5 prompts de altísimo nivel que cubren los 5 ángulos publicitarios que más venden en Meta Ads: producto premium, lifestyle aspiracional, antes vs después, autoridad personal y urgencia. Están escritos en inglés porque ChatGPT Image rinde 30 a 40 por ciento mejor con instrucciones técnicas en inglés. Cópialos, reemplaza solo lo que está entre corchetes con tu información, y pégalos directamente en ChatGPT Image 2.0. Cada prompt incluye especificación de cámara, lente, iluminación, paleta de color y posición exacta del texto en la imagen — todo lo que un fotógrafo profesional usaría para dirigir una sesión real.",
+      "tips": [
+        "PROMPT 1 — HERO DE PRODUCTO PREMIUM: Hyperrealistic hero shot of [YOUR PRODUCT] floating on a polished obsidian surface, dramatic 45-degree softbox lighting, deep cyan rim light against a gradient black background, shot on Hasselblad H6D 100mm macro at f/4, ultra-sharp label focus, subtle reflection beneath, premium luxury commercial style, 8K detail. Headline overlay upper-left: '[YOUR HEADLINE — MAX 6 WORDS]', bold condensed sans-serif white with subtle shadow, no other text or watermarks.",
+        "PROMPT 2 — LIFESTYLE ASPIRACIONAL: Cinematic lifestyle shot of a confident professional in their 30s working from a luxury rooftop terrace at golden hour, laptop open showing analytics dashboards, infinity pool and city skyline blurred in background, shot on Sony A7R V with 35mm f/1.4 lens, warm golden sunlight wrapping the subject, shallow depth of field, editorial fashion aesthetic, teal-and-orange color grade. Bottom-center overlay: '[YOUR PROMISE — MAX 8 WORDS]', bold serif white with shadow, no other text or watermarks.",
+        "PROMPT 3 — ANTES vs DESPUÉS: Split-screen advertising image with two contrasting workspaces — left half: chaotic dimly-lit cluttered desk in cool blue stress tones with visible disorder; right half: pristine premium office in warm golden light with growth charts on monitors and abundance, both halves shot on Canon R5 with 24mm lens, dramatic visual contrast between mediocre and excellence, cinematic color grade. Top-center text overlay: 'ANTES vs DESPUÉS', bold uppercase electric cyan with subtle glow, no other text or watermarks.",
+        "PROMPT 4 — AUTORIDAD PERSONAL: Editorial portrait of a professional founder photographed from a slightly heroic low angle, standing in front of a wall of vertical glowing screens displaying real-time business metrics and client results, dramatic Rembrandt lighting from a 60-degree key light, deep moody shadows with selective highlights, shot on Phase One IQ4 with 80mm lens at f/2.8, premium agency authority style. Lower-right overlay: '[YOUR NAME OR BRAND]', thin elegant serif soft white, no other text or watermarks.",
+        "PROMPT 5 — URGENCIA Y ESCASEZ: High-impact advertising image of a vintage mechanical countdown timer centered on a reflective black surface with glowing red LED digits, dramatic top-down spotlight creating circular shadow falloff, scattered crumpled paper offers around with one premium gold envelope sealed with wax, shot on Leica SL3 with 50mm lens at f/2, ultra-detailed macro reflections, cinematic film grain, deep red-and-amber color palette evoking urgency. Top text overlay: 'SOLO QUEDAN 24 HORAS', bold condensed display electric red with white outline, no other text or watermarks."
+      ],
+      "imagePrompt": "Designer workspace with a large monitor displaying a premium AI-generated advertisement image being composed, scattered notebook pages with handwritten elite-level prompts visible on the desk, glowing keyboard backlight, dual-tone cyan and warm amber accent lighting, premium creative studio at night, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
