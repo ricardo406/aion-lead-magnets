@@ -1,0 +1,81 @@
+{
+  "title": "Cómo Crear Agentes IA en ChatGPT Para Automatizar Tu Negocio",
+  "subtitle": "Guía Paso a Paso Para Implementarlo Hoy",
+  "intro": "ChatGPT acaba de lanzar Workspace Agents (Browse Agents): una función que te deja crear Agentes IA capaces de buscar clientes, generar contenido y conectar herramientas mientras tú duermes. En esta guía vas a aprender, paso a paso, cómo activarlos, configurarlos y ponerlos a trabajar para tu negocio. Sin código, sin tecnicismos. Si lo aplicas como te lo voy a explicar, en menos de una semana tienes procesos automáticos que antes te robaban horas todos los días.",
+  "coverImagePrompt": "Modern minimalist workspace at night with a sleek black laptop displaying a futuristic AI agent control panel interface with glowing cyan nodes and connecting lines representing automated workflows, soft cinematic lighting from above, premium dark aesthetic with subtle blue ambient glow, professional desk setup, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Automatizar Tu Negocio Con Agentes IA?",
+  "ctaText": "Únete a la comunidad AION Growth Lab donde te ayudamos a implementar Agentes IA paso a paso, con entrenamientos en vivo cada semana, plantillas listas para usar, y acceso directo a Ricardo La Rocca para que generes clientes con Meta Ads + IA en automático. Más de 220 emprendedores ya están dentro construyendo sus sistemas. Te esperamos.",
+  "steps": [
+    {
+      "title": "Activa Workspace Agents en tu cuenta de ChatGPT",
+      "description": "Entra a ChatGPT desde tu navegador (chat.openai.com) e inicia sesión con tu cuenta Plus o Team. En el menú lateral izquierdo, busca la opción Browse Agents (también aparece como Workspace Agents según la región). Si no la ves, asegúrate de tener tu plan al día y refresca la página. Esta es la sección donde vas a crear, configurar y ejecutar todos tus Agentes IA desde un solo lugar.",
+      "tips": [
+        "Necesitas plan ChatGPT Plus, Team o Enterprise para acceder a la función",
+        "Si no aparece Browse Agents, cambia el idioma de la cuenta a inglés temporalmente y vuelve a entrar",
+        "Marca esta sección como favorita en tu navegador para acceder rápido todos los días"
+      ],
+      "imagePrompt": "Close-up of a laptop screen showing a modern AI dashboard interface with a left sidebar menu highlighting an Agents option, glowing cyan accent on the active menu item, clean minimal UI design, soft bokeh background of an office at night, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Mapea los 3 procesos que más tiempo te roban hoy",
+      "description": "Antes de crear ningún Agente, agarra una hoja y escribe los 3 procesos repetitivos que más horas te consumen cada semana. Pueden ser: prospectar clientes, responder mensajes, escribir contenido, hacer reportes, investigar competencia. Para cada uno, anota cuántas horas semanales te toma y cuál es el resultado final que necesitas. Estos 3 procesos van a ser los primeros candidatos para convertirse en Agentes IA. Empieza siempre por el que más dolor te causa.",
+      "tips": [
+        "Si dudas cuál automatizar primero, elige el que más detestas hacer manualmente",
+        "Procesos con pasos repetibles y predecibles son los mejores candidatos",
+        "Evita automatizar tareas creativas críticas en la primera iteración"
+      ],
+      "imagePrompt": "Top-down view of a wooden desk with an open notebook showing handwritten lists and arrows in dark ink, a black pen, a cup of espresso, soft warm morning light coming from the side, premium minimal aesthetic, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Crea tu primer Agente IA buscador de clientes ideales",
+      "description": "Dentro de Browse Agents, haz click en Create Agent. Ponle un nombre claro como Prospector AION y en las instrucciones escribe exactamente a quién buscas: industria, tamaño de empresa, país, qué problema resuelves. Ejemplo: busca dueños de agencias de seguros en LATAM con 5 a 20 empleados que publiquen en Instagram pero no usen Meta Ads. El Agente va a recorrer la web y devolverte una lista de prospectos calificados con datos de contacto. Ejecútalo todos los días a la misma hora.",
+      "tips": [
+        "Mientras más específico el ICP, mejor la calidad de los leads",
+        "Pídele que te entregue los resultados en formato tabla con nombre, web, IG y motivo del match",
+        "Programa el Agente para que corra automático cada mañana mientras desayunas"
+      ],
+      "imagePrompt": "Professional workspace with dual monitors displaying a CRM-style dashboard with rows of contact cards and analytics charts, a hand pointing at one of the leads, modern office environment with floor-to-ceiling windows and soft daylight, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Diseña un Agente para crear contenido viral 24/7",
+      "description": "Crea un segundo Agente con un nombre como Content Machine. En las instrucciones dale tu nicho, tu tono de voz, los temas que dominas y los formatos que usas (reels, carruseles, hooks). Pídele que cada día te entregue 5 ideas con hook, guion y CTA listos para grabar. Adjunta como referencia 3 a 5 publicaciones tuyas que mejor funcionaron para que aprenda tu estilo. En menos de una semana tienes una pipeline de contenido sin tener que pensar de cero nunca más.",
+      "tips": [
+        "Sube tus mejores publicaciones como ejemplo para que clone tu voz",
+        "Pídele variaciones: Hook problema, Hook resultado, Hook contraintuitivo",
+        "Revisa siempre antes de publicar, el Agente acelera pero no sustituye tu criterio"
+      ],
+      "imagePrompt": "Dynamic creative studio with a smartphone on a tripod ring light setup, multiple sticky notes with sketches on a glass wall, soft purple and blue ambient lighting, blurred motion of someone gesturing in the background, modern content creation environment, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Conecta herramientas externas para potenciar cada Agente",
+      "description": "El verdadero poder aparece cuando conectas tus Agentes a herramientas externas. ChatGPT Agents permite integrar Gmail, Google Drive, Calendar, Notion, Sheets y más. Conecta el Prospector a Sheets para que vuelque los leads automáticamente. Conecta el Content Machine a Drive para que guarde los guiones organizados por fecha. Cada conexión elimina un paso manual y multiplica el output. Empieza por una integración por Agente para no abrumarte.",
+      "tips": [
+        "Usa Google Sheets como hub central donde todos los Agentes vuelcan resultados",
+        "Conecta tu calendario para que el Agente agende tareas y recordatorios",
+        "Si necesitas más integraciones avanzadas, complementa con n8n o Make"
+      ],
+      "imagePrompt": "Abstract visualization of connected nodes and data flows between different application icons floating over a dark glass surface, glowing cyan and orange connection lines representing data integration, modern tech aesthetic, deep blacks with selective rim lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Itera con feedback real hasta que el Agente trabaje solo",
+      "description": "Ningún Agente sale perfecto al primer intento. Durante la primera semana, revisa cada output y dale feedback directo dentro del chat: esto sí, esto no, este formato me gusta más, este lead no aplica. El Agente aprende y ajusta. Después de 5 a 7 iteraciones bien hechas, vas a tener un sistema que entrega resultados consistentes sin que tengas que corregir nada. Esa es la meta: pasar de operador a supervisor.",
+      "tips": [
+        "Documenta cada ajuste en una nota para no repetir el mismo feedback dos veces",
+        "Si después de 10 iteraciones no mejora, reescribe las instrucciones desde cero",
+        "Mide tiempo ahorrado por semana, esa es tu métrica clave de ROI"
+      ],
+      "imagePrompt": "Hand interacting with a holographic interface showing performance metrics rising over time, line graphs trending upward with cyan glow, modern minimalist desk environment in low-key lighting, premium tech atmosphere, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Escala: convierte cada proceso manual en un Agente IA",
+      "description": "Una vez que tienes 2 o 3 Agentes funcionando bien, repite el proceso con cada nuevo cuello de botella de tu negocio. Reportes semanales, atención al cliente nivel 1, investigación de competencia, análisis de métricas, preparación de propuestas. Todo lo repetible se puede agentizar. La regla es simple: si lo haces más de 3 veces por semana de la misma forma, ya es candidato a Agente. En 90 días puedes pasar de operador agotado a CEO con un equipo de Agentes IA trabajando para ti.",
+      "tips": [
+        "Crea un Agente nuevo cada 2 semanas, no todos a la vez, para no perder calidad",
+        "Asigna a cada Agente un objetivo medible y revísalo mensualmente",
+        "Documenta tu sistema en un manual interno para escalarlo cuando contrates equipo"
+      ],
+      "imagePrompt": "Wide shot of a modern executive office at sunset with a person sitting confidently looking at multiple floating holographic screens displaying various automated workflows and analytics, warm golden hour light filtering through tall windows, premium luxury aesthetic, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
