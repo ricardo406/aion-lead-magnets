@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía Premium: Workspace Agents en ChatGPT Business</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    :root {
+      --ink: #101315;
+      --muted: #5d656b;
+      --paper: #f6f3ed;
+      --white: #ffffff;
+      --line: #d8d0c2;
+      --gold: #bf8a38;
+      --teal: #0f766e;
+      --charcoal: #202426;
+      --soft: #e9e3d8;
+      --blue: #1f5f8b;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.42;
+    }
+
+    .page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      overflow: hidden;
+      background: var(--paper);
+      break-after: page;
+      padding: 16mm;
+    }
+
+    .page.dark {
+      color: var(--white);
+      background: var(--charcoal);
+    }
+
+    .cover {
+      padding: 0;
+      display: grid;
+      grid-template-rows: 186mm 1fr;
+      background: var(--charcoal);
+      color: var(--white);
+    }
+
+    .cover-hero {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cover-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .cover-hero:after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(13,15,16,.10) 0%, rgba(13,15,16,.24) 44%, rgba(13,15,16,.90) 100%);
+    }
+
+    .cover-copy {
+      position: absolute;
+      left: 16mm;
+      right: 16mm;
+      bottom: 16mm;
+      z-index: 2;
+    }
+
+    .kicker {
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      margin-bottom: 7mm;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 44px;
+      line-height: .95;
+      letter-spacing: 0;
+      max-width: 158mm;
+    }
+
+    .subtitle {
+      margin-top: 6mm;
+      max-width: 150mm;
+      font-size: 18px;
+      color: rgba(255,255,255,.86);
+    }
+
+    .cover-footer {
+      padding: 12mm 16mm;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 12mm;
+      align-items: end;
+      background: var(--charcoal);
+      border-top: 1px solid rgba(255,255,255,.12);
+    }
+
+    .label {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 800;
+    }
+
+    .dark .label { color: rgba(255,255,255,.55); }
+
+    .cover-footer p {
+      margin: 2mm 0 0;
+      color: rgba(255,255,255,.82);
+      font-size: 13px;
+    }
+
+    .folio {
+      position: absolute;
+      right: 16mm;
+      bottom: 8mm;
+      color: #8a8175;
+      font-size: 10px;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0 0 5mm;
+      font-size: 28px;
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 3mm;
+      font-size: 15px;
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 0 4mm;
+      color: var(--muted);
+      font-size: 11.8px;
+    }
+
+    .lead {
+      font-size: 14.5px;
+      color: #2b2f31;
+      max-width: 156mm;
+      margin-bottom: 6mm;
+    }
+
+    .dark p,
+    .dark .lead { color: rgba(255,255,255,.78); }
+
+    .section-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12mm;
+      align-items: flex-start;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 5mm;
+      margin-bottom: 6mm;
+    }
+
+    .section-top .kicker { margin: 0; }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7mm;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5mm;
+    }
+
+    .box {
+      background: rgba(255,255,255,.72);
+      border: 1px solid var(--line);
+      padding: 5mm;
+      border-radius: 8px;
+    }
+
+    .box.darkbox {
+      background: rgba(255,255,255,.08);
+      border-color: rgba(255,255,255,.15);
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 13mm 1fr;
+      gap: 4mm;
+      padding: 3.4mm 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .step:last-child { border-bottom: 0; }
+
+    .num {
+      width: 10mm;
+      height: 10mm;
+      border-radius: 50%;
+      background: var(--ink);
+      color: var(--white);
+      display: grid;
+      place-items: center;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .step p { margin-bottom: 0; }
+
+    .callout {
+      margin: 6mm 0;
+      padding: 5mm;
+      border-left: 4px solid var(--gold);
+      background: #fffaf1;
+    }
+
+    .callout p {
+      color: #34312b;
+      font-size: 13px;
+      margin: 0;
+    }
+
+    .photo-band {
+      margin: -16mm -16mm 7mm;
+      height: 54mm;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .photo-band img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .photo-band:after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(246,243,237,.96), rgba(246,243,237,.42), rgba(246,243,237,.05));
+    }
+
+    .prompt {
+      background: #111517;
+      color: #f5f2ea;
+      border-radius: 8px;
+      padding: 4mm;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 9.4px;
+      line-height: 1.38;
+      white-space: pre-wrap;
+      margin-bottom: 3.5mm;
+    }
+
+    .prompt-title {
+      display: flex;
+      align-items: center;
+      gap: 3mm;
+      color: var(--teal);
+      font-size: 11px;
+      font-weight: 850;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      margin: 4.5mm 0 1.5mm;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2mm 3mm;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #42484c;
+      background: rgba(255,255,255,.5);
+      font-size: 10px;
+      font-weight: 700;
+      margin: 0 1.5mm 2mm 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 5mm;
+    }
+
+    li {
+      color: var(--muted);
+      font-size: 11.4px;
+      margin-bottom: 1.8mm;
+    }
+
+    .matrix {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10px;
+      background: rgba(255,255,255,.62);
+      border: 1px solid var(--line);
+    }
+
+    .matrix th {
+      text-align: left;
+      color: var(--ink);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: .7px;
+      padding: 2.5mm;
+      border-bottom: 1px solid var(--line);
+      background: #eee6da;
+    }
+
+    .matrix td {
+      vertical-align: top;
+      color: var(--muted);
+      padding: 2.5mm;
+      border-bottom: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+    }
+
+    .matrix tr:last-child td { border-bottom: 0; }
+    .matrix td:last-child { border-right: 0; }
+
+    .cta {
+      display: grid;
+      grid-template-columns: 1fr 54mm;
+      gap: 11mm;
+      align-items: center;
+      min-height: 100%;
+      background: var(--charcoal);
+      color: var(--white);
+    }
+
+    .cta h2 {
+      font-size: 40px;
+      max-width: 140mm;
+    }
+
+    .cta p {
+      color: rgba(255,255,255,.78);
+      font-size: 15px;
+      max-width: 139mm;
+    }
+
+    .url-box {
+      border: 1px solid rgba(255,255,255,.2);
+      padding: 7mm;
+      border-radius: 8px;
+      background: rgba(255,255,255,.08);
+      font-weight: 800;
+      color: var(--gold);
+      word-break: break-word;
+      font-size: 13px;
+    }
+
+    .mini {
+      font-size: 9.5px;
+      color: #8b8174;
+      margin-top: 5mm;
+    }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div class="cover-hero">
+      <img src="assets/cover-agent-workspace.png" alt="">
+      <div class="cover-copy">
+        <div class="kicker">AI On Growth Lab · Playbook premium</div>
+        <h1>Automatiza tu negocio con Workspace Agents en ChatGPT</h1>
+        <div class="subtitle">Paso a paso, arquitectura de agentes y prompts de alto nivel para contenido, noticias, reuniones, CRM y operaciones.</div>
+      </div>
+    </div>
+    <div class="cover-footer">
+      <div>
+        <div class="label">Para fundadores, agencias y equipos comerciales</div>
+        <p>Una guía práctica para pasar de “usar ChatGPT” a construir agentes repetibles que trabajen con tus herramientas, datos y procesos.</p>
+      </div>
+      <div>
+        <div class="label">CTA del video</div>
+        <p>Comenta “GPT” para recibir la información y los prompts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="section-top">
+      <div>
+        <div class="kicker">01 · Visión estratégica</div>
+        <h2>Qué estás creando realmente</h2>
+      </div>
+      <div class="label">De herramienta a sistema</div>
+    </div>
+    <p class="lead">Un Workspace Agent no es solo un chat guardado. Es una unidad de trabajo con instrucciones, herramientas, contexto y reglas operativas para repetir tareas del negocio con más velocidad y consistencia.</p>
+    <div class="grid-3">
+      <div class="box">
+        <h3>Agente</h3>
+        <p>Define una función concreta: investigar, escribir, organizar, calificar leads, preparar reuniones o generar reportes.</p>
+      </div>
+      <div class="box">
+        <h3>Herramientas</h3>
+        <p>Puede conectarse con apps, conectores, archivos, skills, Slack, calendarios o MCPs personalizados según el plan y permisos.</p>
+      </div>
+      <div class="box">
+        <h3>Resultado</h3>
+        <p>Convierte tareas repetibles en flujos con criterio, formato y entregables estandarizados.</p>
+      </div>
+    </div>
+    <div class="callout">
+      <p><strong>Idea clave:</strong> no empieces creando “un agente para todo”. Empieza por un resultado que ya vendes, entregas o repites cada semana. Luego convierte ese resultado en instrucciones, fuentes, formato y criterios de calidad.</p>
+    </div>
+    <table class="matrix">
+      <thead>
+        <tr>
+          <th>Si tu negocio necesita...</th>
+          <th>Crea un agente para...</th>
+          <th>Entregable ideal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Publicar más contenido sin perder voz</td>
+          <td>Convertir ideas, llamadas y videos en piezas listas para publicar</td>
+          <td>Calendario, guiones, captions, emails y hooks</td>
+        </tr>
+        <tr>
+          <td>Responder rápido a oportunidades</td>
+          <td>Revisar leads, contexto del CRM y próxima acción recomendada</td>
+          <td>Resumen ejecutivo y mensaje sugerido</td>
+        </tr>
+        <tr>
+          <td>Mejorar reuniones comerciales</td>
+          <td>Preparar briefing, agenda, objeciones y seguimiento</td>
+          <td>Plan de reunión y follow-up personalizado</td>
+        </tr>
+        <tr>
+          <td>Tomar decisiones con información actual</td>
+          <td>Monitorear noticias, competidores, campañas y tendencias</td>
+          <td>Reporte semanal con insights y acciones</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="folio">AI On Growth Lab · 01</div>
+  </section>
+
+  <section class="page">
+    <div class="photo-band">
+      <img src="assets/team-automation.png" alt="">
+    </div>
+    <div class="section-top">
+      <div>
+        <div class="kicker">02 · Paso a paso</div>
+        <h2>Cómo crear tu primer Workspace Agent</h2>
+      </div>
+      <div class="label">ChatGPT Business</div>
+    </div>
+    <div class="step"><div class="num">1</div><div><h3>Entra al workspace correcto</h3><p>Abre ChatGPT, cambia a tu cuenta Business y confirma que estás dentro del workspace de tu empresa, no en tu espacio personal.</p></div></div>
+    <div class="step"><div class="num">2</div><div><h3>Abre la sección Agents</h3><p>Desde la barra lateral, entra en “Agents”. Ahí puedes ver agentes recientes, agentes creados por ti y el directorio de tu equipo.</p></div></div>
+    <div class="step"><div class="num">3</div><div><h3>Crea desde plantilla o desde cero</h3><p>Usa una plantilla si el flujo es común. Si tu proceso es propio, selecciona crear y describe el objetivo del agente con un prompt maestro.</p></div></div>
+    <div class="step"><div class="num">4</div><div><h3>Define herramientas y contexto</h3><p>Agrega apps, conectores, archivos, skills o MCPs que el agente necesita. Para GoHighLevel, piensa en un conector/MCP o capa de integración autorizada.</p></div></div>
+    <div class="step"><div class="num">5</div><div><h3>Prueba antes de publicar</h3><p>Usa el modo preview con escenarios reales. Revisa si el agente pregunta cuando falta información, respeta límites y entrega en el formato correcto.</p></div></div>
+    <div class="step"><div class="num">6</div><div><h3>Publica con control</h3><p>Déjalo privado, compártelo por enlace o publícalo en el directorio del equipo. Usa permisos mínimos y audita conexiones sensibles.</p></div></div>
+    <div class="step"><div class="num">7</div><div><h3>Programa o ejecútalo bajo demanda</h3><p>Puedes invocarlo en ChatGPT, usarlo por nombre con @, conectarlo a Slack o programar ejecuciones recurrentes según el caso de uso.</p></div></div>
+    <div class="folio">AI On Growth Lab · 02</div>
+  </section>
+
+  <section class="page">
+    <div class="section-top">
+      <div>
+        <div class="kicker">03 · Prompt maestro</div>
+        <h2>La estructura que hace que el agente trabaje bien</h2>
+      </div>
+      <div class="label">Copiar y adaptar</div>
+    </div>
+    <p class="lead">Un agente de alto nivel necesita una definición clara de rol, objetivo, fuentes, herramientas, restricciones y formato de salida. Este prompt sirve como base para construir casi cualquier agente de negocio.</p>
+    <div class="prompt-title">Prompt maestro para crear el agente</div>
+    <div class="prompt">Quiero crear un Workspace Agent para mi negocio.
+
+Objetivo principal:
+[Describe el resultado exacto que debe producir el agente.]
+
+Rol del agente:
+Actúa como [estratega de contenido / analista comercial / coordinador operativo / asistente ejecutivo / investigador de mercado] para una empresa que vende [oferta] a [audiencia].
+
+Contexto de negocio:
+- Oferta principal: [producto/servicio]
+- Cliente ideal: [perfil]
+- Tono de marca: [directo, premium, educativo, cercano]
+- Métrica que queremos mejorar: [ventas, reuniones, retención, velocidad operativa]
+
+Herramientas y fuentes:
+Usa las apps, archivos o conectores disponibles solo cuando aporten contexto real. Si falta acceso o información crítica, pregunta antes de inventar.
+
+Proceso:
+1. Aclara el objetivo si el pedido está incompleto.
+2. Revisa el contexto disponible.
+3. Propón un plan breve.
+4. Ejecuta el entregable.
+5. Incluye una sección final con próximos pasos.
+
+Reglas de calidad:
+- Sé específico, accionable y orientado a negocio.
+- No entregues teoría genérica.
+- Mantén la voz de la marca.
+- Señala riesgos, dependencias y datos faltantes.
+- Si usas fuentes internas, cita de dónde sale cada punto relevante.
+
+Formato de salida:
+[Define exactamente: tabla, checklist, guion, email, reporte, resumen ejecutivo, JSON, etc.]</div>
+    <div class="grid-2">
+      <div class="box">
+        <h3>Antes de publicarlo</h3>
+        <ul>
+          <li>Prueba con tres casos reales: uno fácil, uno incompleto y uno complejo.</li>
+          <li>Confirma que no inventa datos cuando no tiene acceso.</li>
+          <li>Revisa si el formato de salida se puede usar sin edición pesada.</li>
+          <li>Agrega ejemplos buenos y malos dentro de las instrucciones.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Regla de oro</h3>
+        <p>Un agente excelente no solo responde: sabe cuándo buscar, cuándo preguntar, cuándo ejecutar y cómo entregar el resultado de forma útil para tu equipo.</p>
+      </div>
+    </div>
+    <div class="folio">AI On Growth Lab · 03</div>
+  </section>
+
+  <section class="page">
+    <div class="section-top">
+      <div>
+        <div class="kicker">04 · Casos de uso</div>
+        <h2>Agentes listos para implementar</h2>
+      </div>
+      <div class="label">Contenido · Noticias · Operaciones</div>
+    </div>
+    <div class="prompt-title">Agente de contenido omnicanal</div>
+    <div class="prompt">Crea un agente que transforme ideas, transcripciones y llamadas en contenido para mi marca.
+
+Cada vez que reciba un video, nota o transcript:
+1. Extrae la idea principal y el ángulo de venta.
+2. Crea 5 hooks para Reels/TikTok/Shorts.
+3. Escribe un guion de 45-60 segundos con lenguaje natural.
+4. Genera caption, título, descripción y CTA.
+5. Convierte el tema en un email corto y un post de LinkedIn.
+
+Mantén mi tono: claro, directo, premium, educativo y orientado a resultados.
+Evita frases genéricas. Incluye ejemplos concretos, pasos y una llamada a la acción.</div>
+    <div class="prompt-title">Agente de noticias y tendencias</div>
+    <div class="prompt">Crea un agente que monitoree noticias, lanzamientos, cambios de mercado y oportunidades relacionadas con [industria].
+
+Entrega semanal:
+- 5 noticias relevantes.
+- Por qué importan para mi audiencia.
+- Riesgo u oportunidad para mi negocio.
+- 3 ideas de contenido derivadas.
+- 1 acción concreta que debería tomar esta semana.
+
+Prioriza información actual, fuentes confiables y claridad ejecutiva. No llenes el reporte con ruido.</div>
+    <div class="prompt-title">Agente organizador de operaciones</div>
+    <div class="prompt">Crea un agente que convierta mensajes, notas y reuniones en planes de acción.
+
+Cuando reciba contexto:
+1. Resume decisiones tomadas.
+2. Extrae tareas con responsable, prioridad y fecha sugerida.
+3. Identifica bloqueos.
+4. Propón el siguiente paso más importante.
+5. Redacta un mensaje de seguimiento para el equipo.
+
+Si falta información para asignar tareas, pregunta de forma breve.</div>
+    <div class="folio">AI On Growth Lab · 04</div>
+  </section>
+
+  <section class="page">
+    <div class="photo-band">
+      <img src="assets/crm-command-center.png" alt="">
+    </div>
+    <div class="section-top">
+      <div>
+        <div class="kicker">05 · Ventas y CRM</div>
+        <h2>Prompts para GoHighLevel y crecimiento</h2>
+      </div>
+      <div class="label">Conector o MCP personalizado</div>
+    </div>
+    <p class="lead">Si conectas ChatGPT con GoHighLevel mediante un conector autorizado, MCP o una capa segura de integración, el valor no está en “leer el CRM”. El valor está en recomendar la próxima acción correcta.</p>
+    <div class="prompt-title">Agente de calificación de leads</div>
+    <div class="prompt">Crea un agente para analizar leads y recomendar la próxima acción comercial.
+
+Cuando reciba un contacto o conversación:
+1. Resume quién es el lead y qué quiere.
+2. Detecta intención de compra, urgencia y objeciones.
+3. Clasifica el lead como Caliente, Tibio o Frío.
+4. Recomienda la siguiente acción: llamar, enviar mensaje, agendar, nutrir o descartar.
+5. Redacta un SMS y un email de seguimiento con tono humano.
+
+No inventes datos del CRM. Si falta historial, dilo y trabaja con lo disponible.</div>
+    <div class="prompt-title">Agente de reuniones comerciales</div>
+    <div class="prompt">Crea un agente que prepare reuniones de venta.
+
+Antes de la llamada:
+- Resume el contexto del contacto.
+- Identifica dolores probables.
+- Prepara 7 preguntas de diagnóstico.
+- Anticipa 5 objeciones y respuestas.
+- Define el objetivo de la reunión.
+
+Después de la llamada:
+- Resume acuerdos.
+- Redacta follow-up.
+- Sugiere próximo paso.
+- Actualiza el estado recomendado del lead.</div>
+    <div class="grid-2">
+      <div class="box">
+        <h3>Automatizaciones recomendadas</h3>
+        <ul>
+          <li>Resumen diario de leads nuevos y oportunidades calientes.</li>
+          <li>Seguimientos personalizados para conversaciones sin respuesta.</li>
+          <li>Reporte semanal de pipeline con riesgos y acciones.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Controles necesarios</h3>
+        <ul>
+          <li>Permisos mínimos por herramienta.</li>
+          <li>Revisión humana para acciones de alto impacto.</li>
+          <li>Registro de cambios y fuente de cada recomendación.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="folio">AI On Growth Lab · 05</div>
+  </section>
+
+  <section class="page">
+    <div class="section-top">
+      <div>
+        <div class="kicker">06 · Sistema completo</div>
+        <h2>Stack de agentes para un negocio moderno</h2>
+      </div>
+      <div class="label">Mapa operativo</div>
+    </div>
+    <table class="matrix">
+      <thead>
+        <tr>
+          <th>Agente</th>
+          <th>Qué hace</th>
+          <th>Entrada</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CEO Briefing</td>
+          <td>Resume prioridades, métricas y bloqueos</td>
+          <td>Reportes, CRM, calendario, notas</td>
+          <td>Resumen diario con decisiones</td>
+        </tr>
+        <tr>
+          <td>Content Engine</td>
+          <td>Convierte ideas en contenido multicanal</td>
+          <td>Transcript, tema, oferta, audiencia</td>
+          <td>Guiones, captions, emails, calendario</td>
+        </tr>
+        <tr>
+          <td>Sales Co-Pilot</td>
+          <td>Califica leads y redacta seguimientos</td>
+          <td>Conversaciones, pipeline, formularios</td>
+          <td>Score, objeciones, próximo mensaje</td>
+        </tr>
+        <tr>
+          <td>Meeting Operator</td>
+          <td>Prepara y cierra reuniones</td>
+          <td>Calendario, notas, objetivos</td>
+          <td>Briefing, agenda, follow-up</td>
+        </tr>
+        <tr>
+          <td>Market Watch</td>
+          <td>Monitorea tendencias y oportunidades</td>
+          <td>Noticias, competidores, fuentes web</td>
+          <td>Reporte semanal y acciones</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <p><strong>Implementación en 7 días:</strong> día 1 define procesos; día 2 crea el primer agente; día 3 conecta fuentes; día 4 prueba con casos reales; día 5 publica internamente; día 6 programa ejecuciones; día 7 mide tiempo ahorrado, calidad y conversiones.</p>
+    </div>
+    <div class="grid-3">
+      <div class="box">
+        <h3>Mide velocidad</h3>
+        <p>Horas ahorradas, tiempo de respuesta y volumen de entregables.</p>
+      </div>
+      <div class="box">
+        <h3>Mide calidad</h3>
+        <p>Edición requerida, precisión, consistencia de marca y utilidad.</p>
+      </div>
+      <div class="box">
+        <h3>Mide impacto</h3>
+        <p>Reuniones agendadas, leads recuperados, contenidos publicados y ventas.</p>
+      </div>
+    </div>
+    <p class="mini">Fuentes de producto consultadas: OpenAI Help Center sobre Workspace Agents para Business/Enterprise y Connectors/Apps en ChatGPT. La disponibilidad puede depender del plan, rol, permisos del workspace y despliegue gradual.</p>
+    <div class="folio">AI On Growth Lab · 06</div>
+  </section>
+
+  <section class="page dark cta">
+    <div>
+      <div class="kicker">Siguiente paso</div>
+      <h2>Si quieres aprender más, únete a la academia.</h2>
+      <p>Dentro de AI On Growth Lab aprenderás a crear sistemas de agentes, automatizaciones y prompts de alto nivel para convertir inteligencia artificial en crecimiento real para tu negocio.</p>
+      <div class="url-box">https://www.skool.com/aiongrowthlab/about</div>
+    </div>
+    <div class="box darkbox">
+      <h3>Tu acción ahora</h3>
+      <p>Comenta “GPT” para recibir el paso a paso y los prompts. Luego entra a la academia para implementar el sistema completo con guía, ejemplos y acompañamiento.</p>
+      <div class="tag">Workspace Agents</div>
+      <div class="tag">Prompts premium</div>
+      <div class="tag">Automatización</div>
+      <div class="tag">GoHighLevel</div>
+    </div>
+  </section>
+</body>
+</html>
