@@ -1,0 +1,71 @@
+{
+  "title": "Cómo Conectar El MCP Oficial de Meta Con Tu IA",
+  "subtitle": "Guía Paso a Paso en 5 Minutos",
+  "intro": "Meta acaba de lanzar su propio MCP (Model Context Protocol), y esto cambia por completo la forma en que vas a crear campañas publicitarias. Por primera vez, puedes conectar tu cuenta de Meta Ads de manera oficial con Claude, GPT, Perplexity o cualquier IA que uses, y darle permisos para crear, optimizar y analizar campañas en automático. En esta guía te muestro el proceso exacto, paso a paso, para que en menos de 5 minutos tengas todo conectado y listo para empezar a generar clientes con IA + Meta Ads. Sin tecnicismos, sin código complicado, solo lo que necesitas para activar el setup hoy.",
+  "coverImagePrompt": "Modern minimalist desk setup with a sleek laptop displaying a glowing blue connection diagram between Meta logo and an AI neural network, holographic data streams flowing between platforms, dramatic cyan and deep blue lighting, premium tech aesthetic, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Crear Campañas Con IA Que Sí Generen Clientes?",
+  "ctaText": "Únete a la comunidad AION Growth Lab donde te ayudo a implementar el MCP de Meta paso a paso, montar tus primeras campañas con IA y escalar tu negocio con Meta Ads + Agentes IA. Tendrás soporte directo, entrenamientos en vivo y acceso a Ricardo La Rocca para resolver tus dudas en tiempo real.",
+  "steps": [
+    {
+      "title": "Entiende Por Qué El MCP de Meta Cambia Todo",
+      "description": "El MCP (Model Context Protocol) es un puente oficial creado por Meta que permite que cualquier IA — Claude, GPT, Perplexity — se conecte directamente a tu cuenta publicitaria con permisos reales y oficiales. Antes tenías que usar APIs complicadas, scripts custom o herramientas de terceros. Ahora la IA puede crear campañas, leer métricas, optimizar audiencias y responder preguntas sobre tu cuenta como si fuera tu media buyer personal. Esto significa velocidad de ejecución brutal y decisiones basadas en data real, no en suposiciones.",
+      "tips": [
+        "El MCP es oficial de Meta, así que es la conexión más segura y estable que existe hoy",
+        "Funciona con cualquier IA que soporte conectores MCP (Claude, GPT, Perplexity y más)",
+        "Por ahora se recomienda conectar una sola cuenta publicitaria; pronto permitirán múltiples"
+      ],
+      "imagePrompt": "Cinematic close-up of a glowing blue protocol connection bridge linking Meta's office building silhouette to a futuristic AI brain hologram, electric blue light particles streaming between them, dark atmospheric background with depth, premium technology visualization, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Abre Claude Code y Solicita El Link Oficial",
+      "description": "Abre Claude Code en tu computadora (o cualquier IA que use MCP) y escribe el prompt: \"Quiero conectar el MCP de Meta\". La IA te devolverá automáticamente el link oficial del conector de Meta. Cópialo tal cual aparece, sin modificar nada. Este link es la URL que Meta usa para autenticar tu conexión y darle permisos a la IA. Guárdalo en un bloc de notas porque lo vas a pegar en el siguiente paso.",
+      "tips": [
+        "Si no usas Claude Code, busca \"Meta MCP official connector\" en la documentación de tu IA",
+        "El link es único por sesión: si lo pierdes, vuelve a pedirlo y se regenera",
+        "No compartas este link públicamente: contiene tokens de autenticación temporales"
+      ],
+      "imagePrompt": "Close-up of a sleek modern laptop screen showing a clean dark mode terminal interface with a glowing blue command being typed, soft cyan ambient lighting from the screen reflecting on the desk, minimalist workspace with a coffee cup blurred in background, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Crea Un Conector Personalizado En Tu IA",
+      "description": "Ve a la configuración de tu IA (en Claude se llama \"Custom Connectors\" o \"Conectores personalizados\"). Haz click en \"Crear conector nuevo\" y se abrirá un formulario con dos campos clave: nombre y URL. En el nombre coloca algo claro como \"Meta Ads MCP\" para identificarlo después. En el campo de URL pega el link que copiaste de Claude Code en el paso anterior. Este es el momento donde la IA establece el primer handshake con los servidores de Meta.",
+      "tips": [
+        "Usa nombres descriptivos por cuenta: \"Meta MCP - Cliente A\", \"Meta MCP - Mi negocio\"",
+        "Verifica que la URL empiece con https:// antes de guardar",
+        "Si el conector falla al guardar, revisa que pegaste el link completo sin espacios"
+      ],
+      "imagePrompt": "Modern laptop screen showing a clean settings panel with form fields highlighted by a soft cyan glow, futuristic UI with rounded cards and subtle gradients, professional designer at the keyboard with hands visible, warm desk lamp light, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Realiza La Conexión Oficial Con Meta",
+      "description": "Cuando guardes el conector, tu IA abrirá automáticamente una ventana de Meta para autenticarte. Inicia sesión con la cuenta de Facebook que es admin de tu Business Manager. Meta te mostrará todos los permisos que la IA va a tener: leer cuentas publicitarias, crear campañas, modificar ad sets, ver insights. Revisa cada permiso antes de aprobar. Una vez aceptes, la conexión queda activa y la IA ya tiene acceso oficial a tu cuenta de Meta Ads.",
+      "tips": [
+        "Solo aprueba permisos que realmente vayas a usar (principio de menor privilegio)",
+        "Si tienes 2FA activado, tendrás que confirmar el inicio de sesión en tu celular",
+        "Usa una cuenta admin del Business Manager, no una personal random"
+      ],
+      "imagePrompt": "Cinematic shot of a smartphone and laptop screen side by side both showing a secure authentication flow, green checkmark glowing on the laptop screen, soft blue and white lighting, premium aesthetic with clean lines, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Conecta Tu Cuenta Publicitaria Principal",
+      "description": "Después de autenticarte, Meta te pedirá elegir cuál cuenta publicitaria quieres conectar. Por ahora, la recomendación oficial de Meta es conectar UNA SOLA cuenta para que la IA tenga el contexto enfocado y no se confunda entre cuentas. Selecciona la cuenta que más usas o la que tiene mayor volumen de gasto. Meta ha confirmado que poco a poco van a permitir conectar múltiples cuentas, pero al inicio mantenlo simple.",
+      "tips": [
+        "Empieza con tu cuenta principal o la del cliente más activo",
+        "Si manejas varios clientes, crea un conector MCP por cada uno",
+        "Verifica que la cuenta tenga método de pago activo y no esté restringida"
+      ],
+      "imagePrompt": "Professional dashboard interface on a curved monitor showing a single highlighted advertising account selected with glowing border, other accounts dimmed in background, dark mode UI with cyan accents, modern office environment with subtle bokeh, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Lanza Tu Primera Campaña Con IA",
+      "description": "Con el MCP conectado, ya puedes empezar a crear campañas pidiéndole a la IA en lenguaje natural. Por ejemplo: \"Crea una campaña de mensajes a WhatsApp con presupuesto de 30 dólares al día, audiencia de emprendedores en Latinoamérica, con 3 variaciones de copy\". La IA leerá tu cuenta, generará la campaña, los ad sets, los copys y los subirá en pausa para que tú revises antes de activar. Es el flujo más rápido y eficiente que existe hoy para hacer Meta Ads.",
+      "tips": [
+        "Siempre crea las campañas en pausa primero y revísalas antes de activar",
+        "Pídele a la IA que te justifique sus decisiones (audiencia, presupuesto, copy)",
+        "Combina el MCP con tu Agente IA en WhatsApp para cerrar el loop completo"
+      ],
+      "imagePrompt": "Cinematic shot of a marketing strategist viewing a holographic Meta Ads campaign dashboard floating above a desk, multiple campaign cards arranged in 3D space with glowing performance metrics, deep blue and cyan ambient lighting, premium executive workspace, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
