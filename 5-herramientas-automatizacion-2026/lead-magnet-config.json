@@ -1,0 +1,71 @@
+{
+  "title": "5 Herramientas Que Están Redefiniendo la Automatización en 2026",
+  "subtitle": "El Stack Ganador Para Escalar Sin Contratar",
+  "intro": "El mundo de los negocios digitales ya no premia al que trabaja más duro, sino al que opera con los sistemas correctos. Los emprendedores que están escalando este año no tienen equipos más grandes — tienen un stack de herramientas que captura, conecta, piensa, ejecuta y construye en automático. En esta guía te entrego las cinco piezas exactas de ese stack, qué hace cada una, cuándo activarla y cómo combinarlas para que tu negocio trabaje 24/7 sin que tú estés pegado al teléfono. Si terminas la guía y no aplicas el stack, alguien más lo va a hacer y te va a comer el mercado.",
+  "coverImagePrompt": "Cinematic command center with five floating holographic interfaces arranged in a semicircle, each glowing in a different cool tone (cyan, blue, purple, teal, electric green), interconnected by light streams forming a network, dark futuristic environment with reflective floor, dramatic rim lighting, ultra modern tech aesthetic, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Listo Para Instalar Este Stack Completo en Tu Negocio?",
+  "ctaText": "En AION Growth Lab te ayudamos a montar este stack completo paso a paso: GoHighLevel configurado, n8n orquestando tus flujos, Agentes de IA con Claude respondiendo clientes y Meta Ads conectado a todo el sistema generando clientes en automático. Entrenamientos en vivo cada semana, soporte directo y acceso a Ricardo La Rocca para que no te quedes atascado en ningún paso de la implementación.",
+  "steps": [
+    {
+      "title": "Centraliza Tu Operación Con GoHighLevel",
+      "description": "GoHighLevel reemplaza tu CRM, tu email marketing, tu agenda, tu funnel builder y tu sistema de seguimiento por WhatsApp y SMS — todo en una sola plataforma. Empieza creando tu subcuenta, importando los contactos que ya tienes y configurando un pipeline de venta con 4 etapas mínimas: Lead nuevo, Contactado, Calificado y Cerrado. Activa los workflows de seguimiento automático por email, SMS y WhatsApp para los primeros 7 días después de que entra cada lead. Conecta tu calendario para que los prospectos calificados puedan agendar directamente sin fricción. En 48 horas tienes tu sistema nervioso central operando.",
+      "tips": [
+        "Configura el dominio personalizado desde el día uno para que los emails y funnels usen tu marca",
+        "Activa la app móvil de GHL para responder leads desde el celular cuando estés fuera",
+        "Usa los snapshots de la comunidad para arrancar con plantillas probadas en lugar de construir desde cero"
+      ],
+      "imagePrompt": "Professional workspace with a large curved monitor displaying GoHighLevel CRM dashboard with sales pipeline kanban view, contact records, and automated workflow diagrams in the background, modern office with warm desk lamp lighting, smartphone showing CRM mobile app on the desk beside the monitor, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Orquesta Todos Tus Flujos Con n8n",
+      "description": "n8n es el cerebro silencioso que conecta GoHighLevel, WhatsApp, Meta Ads, tu base de datos y cualquier API que necesites mover datos entre plataformas. Instálalo en tu propio servidor (DigitalOcean, Hetzner o Railway funcionan perfecto) para tener cero límites de operaciones y control total de tus datos. Empieza con un flujo simple: cada vez que entra un lead nuevo a GHL, n8n lo procesa, lo enriquece con datos públicos y dispara una respuesta personalizada por WhatsApp. Una vez que tienes ese primer flujo corriendo, construyes el resto encima: agentes de IA, reportes automáticos, sincronización entre plataformas, lo que necesites.",
+      "tips": [
+        "Self-hosted en Hetzner por $5 al mes te da operaciones ilimitadas sin pagar suscripción cloud",
+        "Empieza con webhooks simples antes de tocar nodos avanzados como AI Agent o Code",
+        "Documenta cada workflow con nombre claro y notas internas — vas a tener decenas en pocos meses"
+      ],
+      "imagePrompt": "Developer workspace showing n8n workflow automation interface on widescreen monitor with complex node graph, multiple connected blocks representing webhooks CRM and AI integrations, glowing cyan and purple connection lines flowing between nodes, dark background with ambient blue lighting from screen, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Activa Claude AI Como Cerebro de Tus Sistemas",
+      "description": "Claude no es un asistente que responde preguntas — es el motor de razonamiento que va dentro de tus Agentes IA, tus flujos de n8n y tus procesos críticos de negocio. A diferencia de otros modelos, Claude no inventa respuestas: razona con el contexto que le das y mantiene coherencia en conversaciones largas. Empieza usándolo para tres cosas concretas: precalificar leads de WhatsApp con un prompt de sistema bien construido, analizar conversaciones de venta para detectar objeciones recurrentes y generar copy persuasivo para tus anuncios y emails. Conecta Claude vía API a n8n y vas a tener inteligencia real corriendo dentro de cada flujo crítico.",
+      "tips": [
+        "Usa el modelo Claude Opus 4.7 para tareas que requieren razonamiento profundo, Haiku para volumen rápido",
+        "Construye prompts de sistema largos y específicos — Claude rinde mejor con instrucciones detalladas",
+        "Activa prompt caching cuando uses Claude en producción para reducir costos hasta 90 por ciento"
+      ],
+      "imagePrompt": "Close-up of a high-end laptop screen showing Claude AI chat interface with a detailed system prompt and conversation in progress, neural network visualization subtly floating above the screen as ambient overlay, cool blue and white lighting, premium modern desk with minimal decor, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Conecta Tu Ecosistema Con Make",
+      "description": "Make complementa a n8n cuando necesitas mover rápido sin levantar un servidor — es la opción visual para automatizar integraciones entre apps que no requieren la potencia de n8n. Úsalo para procesos que cambian seguido o donde tu equipo no técnico va a editar el flujo: notificaciones internas, sincronización de Google Sheets, reportes a Slack, conexiones con Notion, Airtable y herramientas SaaS comunes. La fortaleza de Make es la cantidad de integraciones nativas — miles de apps listas en dos clics. Reserva n8n para los flujos críticos con agentes IA y Make para automatizaciones operativas que necesitas montar en una tarde.",
+      "tips": [
+        "Empieza con el plan gratuito (1.000 operaciones al mes) para probar antes de pagar",
+        "Activa siempre el manejo de errores en cada escenario para que no se rompa silenciosamente",
+        "Si un flujo de Make crece a más de 20 módulos, considera migrarlo a n8n por costo y mantenibilidad"
+      ],
+      "imagePrompt": "Modern office monitor displaying Make automation builder with a visual flowchart of connected app integration nodes (CRM, spreadsheet, email, messaging icons), drag and drop interface visible, warm afternoon light through window, second monitor showing analytics dashboard, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Construye Herramientas a Medida Con Codex",
+      "description": "Codex es tu desarrollador bajo demanda — convierte instrucciones en lenguaje natural en código funcional listo para correr. Úsalo para tres casos específicos: scripts que automatizan tareas técnicas que no caben en n8n (manipulación de archivos, scraping específico, transformación de datos), integraciones personalizadas con APIs que no tienen conector nativo en Make o n8n, y herramientas internas para tu equipo que harías esperar meses con un dev externo. Codex no reemplaza a un programador senior para proyectos complejos, pero sí te quita la dependencia de contratar para cada pieza pequeña que necesitas construir en tu operación.",
+      "tips": [
+        "Describe el problema completo antes de pedir código — más contexto produce mejor output",
+        "Pide siempre que incluya manejo de errores y comentarios explicando cada bloque",
+        "Prueba el código en un entorno aislado antes de meterlo a producción — Codex puede tener bugs sutiles"
+      ],
+      "imagePrompt": "Developer workspace at night with multiple monitors showing code editor on one screen and AI coding assistant interface on another with code generation in progress, terminal window with running scripts, warm desk lamp and ambient purple monitor glow, premium mechanical keyboard, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Combina el Stack y Escala Sin Contratar",
+      "description": "La magia no está en usar una herramienta — está en la combinación. El flujo ganador funciona así: GoHighLevel captura cada lead que entra desde tus anuncios de Meta o tu sitio, n8n orquesta lo que pasa después y dispara los flujos correctos según el tipo de lead, Claude procesa la conversación de WhatsApp y precalifica al prospecto con razonamiento real, Make sincroniza los datos secundarios con tus hojas de cálculo, Notion y herramientas operativas, y Codex construye las piezas a medida que ninguna plataforma cubre. Empieza por una sola pieza, conecta la siguiente cuando la primera funcione, y en 60 días tienes un sistema completo trabajando 24/7 mientras tú trabajas sobre el negocio, no dentro de él.",
+      "tips": [
+        "No intentes montar las 5 herramientas en una semana — instala una por semana y prueba que funcione antes de seguir",
+        "Documenta cada flujo en Notion con diagramas para que cualquier persona del equipo pueda mantenerlo",
+        "Revisa métricas semanales: leads capturados, tasa de respuesta del agente y costo operativo del stack completo"
+      ],
+      "imagePrompt": "Aerial overhead view of a sleek modern workspace with five interconnected monitors arranged in a star pattern on a dark desk, each showing a different SaaS interface, glowing fiber optic cables flowing between them representing data flow, futuristic minimalist office at night with city lights through window, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
