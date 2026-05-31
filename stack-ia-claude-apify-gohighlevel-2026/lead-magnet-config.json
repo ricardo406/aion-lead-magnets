@@ -1,0 +1,65 @@
+{
+  "title": "Cómo Operar Tu Negocio Con 3 Herramientas de IA Conectadas",
+  "subtitle": "Guía Paso a Paso Para Implementarlo En 7 Días",
+  "intro": "Estás dejando dinero en la mesa si tu negocio depende de que tú estés operando manualmente cada parte: campañas de Meta Ads, búsqueda de clientes y seguimiento de leads. Esta guía te muestra el stack exacto de tres herramientas de IA que están usando las agencias y empresarios que más están escalando en 2026. No es teoría: son las mismas herramientas que opero hoy para gestionar tres cuentas de Meta Ads y más de 320 alumnos en AION Growth Lab. Léela en 10 minutos. Impleméntala en 7 días. Cambia tu negocio para siempre.",
+  "coverImagePrompt": "Cinematic wide hero composition of three large floating premium interface panels in a dark studio space arranged in parallax depth, left panel showing a CRM kanban pipeline dashboard with opportunity cards advancing between stages, center panel showing a developer terminal interface with sodium amber text streaming downward, right panel showing a Meta Ads style analytics dashboard with multi-line performance graphs and campaign rows, glowing cyan data flow connections between all three panels representing a unified operational stack, soft cinematic key lighting with sodium amber and ice cyan accents, deep ambient blacks, subtle reflection below the panels, atmospheric haze, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks",
+  "skoolUrl": "https://www.skool.com/aiongrowthlab/about",
+  "ctaTitle": "¿Quieres Implementar Este Stack Con Soporte Directo?",
+  "ctaText": "Únete a AION Growth Lab, la comunidad donde más de 320 emprendedores y agencias están implementando este sistema exacto para generar clientes con Meta Ads + IA. Tendrás entrenamientos en vivo cada semana, los workflows pre-armados listos para importar y acceso directo a Ricardo La Rocca para resolver tus dudas mientras implementas.",
+  "steps": [
+    {
+      "title": "Construye Tu Base — Configura GoHighLevel Como Comando Central",
+      "description": "Antes de automatizar nada, necesitas un comando central donde vivan todos tus contactos, conversaciones y pipelines. GoHighLevel es el CRM all-in-one que reemplaza Mailchimp, Calendly, ManyChat y ClickFunnels en una sola suscripción. Crea tu cuenta, configura un pipeline simple de tres columnas (Nuevo, Calificado, Cerrado) y conecta Gmail, SMS vía Twilio y WhatsApp Business. Esta es la columna vertebral del stack: sin un CRM ordenado, todo lo demás se pierde.",
+      "tips": [
+        "Empieza con el plan Starter de USD 97 al mes; el Unlimited solo lo necesitas si manejas múltiples cuentas de clientes",
+        "No te obsesiones con armar workflows complejos al inicio; valida primero el pipeline básico con leads de prueba"
+      ],
+      "imagePrompt": "Premium command center workspace with a large curved widescreen monitor displaying a modern CRM dashboard featuring a kanban pipeline with opportunity cards moving through three stages, unified inbox panel on the right showing multiple conversation threads from different channels, calendar booking widget at the bottom, dark mode interface with subtle cyan accent highlights, sleek minimalist dark desk environment with soft ambient lighting, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Conecta Claude AI Con El MCP de Meta Para Operar Tus Ads",
+      "description": "Claude AI es el modelo de Anthropic que ejecuta tareas reales en tu computadora, no solo conversa. El MCP de Meta es el puente que le permite leer y modificar tus campañas de Facebook e Instagram Ads directamente. Instala Claude Code desde claude.ai/code, consigue tu token de la Marketing API de Meta desde el Business Manager creando un System User con permisos de Ads Management, y configura el MCP en tu archivo de configuración. En 15 minutos tienes a Claude AI conectado a tus cuentas publicitarias listo para operarlas.",
+      "tips": [
+        "Usa el plan Claude Pro de USD 20 al mes para arrancar; el Max solo si operas más de 5 cuentas o gastas más de USD 20K mensuales en ads",
+        "El MCP de Meta más confiable y mantenido es pipeboard-co/meta-ads-mcp, open source en GitHub"
+      ],
+      "imagePrompt": "Close-up macro shot of a sleek matte black laptop on a dark desk displaying a developer terminal interface with sodium amber prompt text and structured JSON response blocks streaming downward, beside it a second floating semi-transparent panel showing a Meta Ads style management interface with anonymized campaign rows and live updating performance graphs, warm amber terminal glow blending with cool ice cyan ambient from the second panel, deep ambient blacks, soft cinematic key light, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Audita y Optimiza Tus Campañas Meta Ads En 3 Minutos",
+      "description": "Ahora que Claude AI está conectado al MCP de Meta, puedes auditar cuentas enteras en minutos. Pídele en lenguaje natural: audita todas mis campañas activas, identifica los ad sets que están perdiendo dinero, pausa los que tienen CPA arriba del objetivo y sube budget de los top 5 performers en 40%. Lo hace solo. Lee tu cuenta, analiza performance con breakdowns por edad, sexo, plataforma, placement y región, y aplica los cambios. Lo que antes te tomaba 3 horas con un media buyer ahora son 3 minutos.",
+      "tips": [
+        "Guarda tus prompts ganadores en un archivo de texto para reusarlos cada semana; los buenos resultados vienen de prompts refinados",
+        "Pídele un reporte previo antes de aplicar cambios automáticos; no le des permisos de auto-ejecución al inicio"
+      ],
+      "imagePrompt": "Premium analytics workspace showing a large widescreen display with a Meta Ads style dashboard featuring dozens of campaign rows with detailed performance metrics, multiple rows highlighted with cyan and amber outlines indicating AI classification of winners and losers, an animated scan line sweeping across the entire table, side panel showing optimization recommendations being generated by an AI agent in real time, dark studio environment with soft cinematic key lighting and atmospheric depth, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Encuentra 5,000 Clientes Calificados En Una Hora Con Apify",
+      "description": "Apify es la plataforma de extracción web más potente del mercado. Te permite obtener de forma legal y masiva cualquier directorio, marketplace o red social: Google Maps, LinkedIn, Yellow Pages, Shopify stores, lo que sea. Crea tu cuenta, busca en la Apify Store un actor relevante para tu nicho (Google Maps Scraper, LinkedIn Sales Navigator Scraper, Shopify Stores Finder), configura los filtros por ciudades, categorías y criterios específicos, y córrelo. En una hora tienes entre 1,000 y 5,000 prospects estructurados con nombre, empresa, ubicación, email y teléfono.",
+      "tips": [
+        "Empieza con el free tier de USD 5 de crédito mensual para validar; pásate al plan Starter de USD 49 al mes cuando confirmes que funciona para tu negocio",
+        "Filtra agresivo desde el principio: 300 leads bien calificados convierten más que 3,000 genéricos"
+      ],
+      "imagePrompt": "Wide cinematic shot of a digital operations control room displaying a large translucent world map with location pins igniting in cascading sequence across major business hubs in Latin America and the United States, beside it a dense data table populating row by row at high speed with structured business contact information, multiple browser windows visible in deep parallax background showing different web extraction operations happening simultaneously, dark environment with ice cyan data accents and warm amber confirmation pulses, atmospheric haze, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Enriquece Cada Lead Con Claude AI Para Outreach Personalizado",
+      "description": "Aquí está el multiplicador real: pasa la data extraída por Apify a través de Claude AI para que enriquezca cada prospect uno por uno. Pídele que analice el sitio web de cada empresa, detecte sus dolores específicos, identifique señales de calificación como tamaño de equipo o stack tecnológico, y escriba un email personalizado de outreach con un ángulo único para cada lead. De 3,000 prospects fríos pasas a tener 3,000 emails hiper-personalizados listos para mandar. Sin equipo de SDRs y sin templates genéricos que terminan en spam.",
+      "tips": [
+        "Define una rúbrica clara de calificación antes de enriquecer: presupuesto, urgencia, fit del producto y autoridad de decisión",
+        "Pídele a Claude AI que descarte automáticamente los que no califiquen para no contaminar tu CRM con leads que no van a cerrar"
+      ],
+      "imagePrompt": "Premium dual-display workspace in dark studio, left monitor showing a structured data table from a web extraction tool with hundreds of contact rows and lead score indicators, right monitor showing a Claude AI terminal interface with personalized outreach emails being generated one by one with structured analysis output above each email, glowing cyan connection lines visualized between both displays representing real-time data flow and AI enrichment, sodium amber and ice cyan ambient mix lighting, deep ambient blacks, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    },
+    {
+      "title": "Activa Workflows Multi-Canal Que Cierran En Automático",
+      "description": "Importa los leads enriquecidos a GoHighLevel y dispara workflows multi-canal automáticos. Construye este workflow base: el lead entra al CRM, se manda el email personalizado escrito por Claude AI, si abre el email se dispara un SMS de seguimiento al día siguiente, si responde se agenda llamada en automático con tu calendario integrado, si no responde se manda un mensaje de WhatsApp al tercer día. Cada interacción se registra y el lead avanza por el pipeline solo. Ningún lead se enfría por falta de atención y tú duermes mientras el sistema cierra.",
+      "tips": [
+        "Usa el constructor visual de workflows de GoHighLevel; arrastras y conectas nodos sin necesitar código",
+        "Configura disparadores de notificación a tu celular cuando un lead responde, para que tú entres a cerrar en caliente cuando hay interés real"
+      ],
+      "imagePrompt": "Wide cinematic shot of a glowing CRM workflow builder interface floating in dark premium studio space, showing connected workflow nodes representing automated steps with envelope email icon, message bubble SMS icon, calendar event icon, WhatsApp icon and dollar sign conversion icon all connected by glowing data flow lines, structured lead cards visibly advancing through pipeline stages on the side, conversion counter ticking upward in the corner, ambient teal and warm amber accent lighting, deep ambient blacks, photorealistic, cinematic lighting, high contrast, 16:9 landscape composition, ultra detailed 4K, no text, no words, no letters, no watermarks"
+    }
+  ]
+}
